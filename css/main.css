@@ -350,7 +350,7 @@ ol {
     transform: scale(1.1); }
 
 .section--consulting-digital-platform {
-  background-color: red; }
+  background-color: #2C3741; }
 
 .section--digital-anatomy-inclusion {
   background-color: #FFB13B; }
@@ -362,7 +362,7 @@ ol {
   background-color: #E93153; }
 
 .project--frontend-cdp:hover {
-  background-color: #cc0000; }
+  background-color: #171d23; }
 
 .project--frontend-digital-anatomy-inclusion:hover {
   background-color: #ff9d08; }
@@ -447,7 +447,7 @@ ol {
     .section.is-expanded .project--frontend-myfusion .project__grid--frontend {
       padding: 0 2rem 2rem; }
     .section.is-expanded .project--frontend-cdp:hover {
-      background-color: red; }
+      background-color: #2C3741; }
     .section.is-expanded .project--frontend-digital-anatomy-inclusion:hover {
       background-color: #FFB13B; }
     .section.is-expanded .project--frontend-idea-blockchain:hover {
@@ -719,7 +719,7 @@ ol {
   .section.is-expanded .project__grid--intro .grid-item--2 {
     height: 57.5rem; } }
 .project--frontend-cdp {
-  background: red; }
+  background: #2C3741; }
 
 .project--style-components-cdp {
   background-color: #6ABE28; }
@@ -1514,14 +1514,14 @@ ol {
 .project--frontend-idea-projects .project__grid--front-end .grid-item--1 {
   transition: all 10s;
   grid-column: 1 / 9;
-  background: url("../imgs/idea/badge-projects/badge-projects-1.jpg") no-repeat 0 0;
+  background: url("../imgs/idea/badge-projects/badges-projects-1.png") no-repeat 0 0;
   background-size: 100%; }
   .project--frontend-idea-projects .project__grid--front-end .grid-item--1:hover {
     background-position: 0px 100%; }
 .project--frontend-idea-projects .project__grid--front-end .grid-item--2 {
   transition: all 10s;
   grid-column: 1 / 9;
-  background: url("../imgs/idea/badge-projects/badge-projects-2.jpg") no-repeat 0 0;
+  background: url("../imgs/idea/badge-projects/badges-projects-2.png") no-repeat 0 0;
   background-size: 100%; }
   .project--frontend-idea-projects .project__grid--front-end .grid-item--2:hover {
     background-position: 0px 100%; }
@@ -1550,7 +1550,7 @@ ol {
 .project--frontend-idea-responsive .project__grid--front-end .grid-item--1 {
   grid-row: 1 / 2;
   grid-column: 1 / 5;
-  background: url("../imgs/idea/badge-blockchain/badge-blockchain-4.jpg") no-repeat 0 0;
+  background: url("../imgs/idea/badges-responsive/badge-resposive-1.jpg") no-repeat 0 0;
   background-size: 100%; }
   .project--frontend-idea-responsive .project__grid--front-end .grid-item--1:hover {
     background-position: 0px 100%; }
