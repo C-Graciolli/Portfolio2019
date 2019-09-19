@@ -350,7 +350,7 @@ ol {
     transform: scale(1.1); }
 
 .section--consulting-digital-platform {
-  background-color: #2C3741; }
+  background-color: red; }
 
 .section--digital-anatomy-inclusion {
   background-color: #FFB13B; }
@@ -362,7 +362,7 @@ ol {
   background-color: #E93153; }
 
 .project--frontend-cdp:hover {
-  background-color: #171d23; }
+  background-color: #cc0000; }
 
 .project--frontend-digital-anatomy-inclusion:hover {
   background-color: #ff9d08; }
@@ -447,7 +447,7 @@ ol {
     .section.is-expanded .project--frontend-myfusion .project__grid--frontend {
       padding: 0 2rem 2rem; }
     .section.is-expanded .project--frontend-cdp:hover {
-      background-color: #2C3741; }
+      background-color: red; }
     .section.is-expanded .project--frontend-digital-anatomy-inclusion:hover {
       background-color: #FFB13B; }
     .section.is-expanded .project--frontend-idea-blockchain:hover {
@@ -719,7 +719,7 @@ ol {
   .section.is-expanded .project__grid--intro .grid-item--2 {
     height: 57.5rem; } }
 .project--frontend-cdp {
-  background: #2C3741; }
+  background: red; }
 
 .project--style-components-cdp {
   background-color: #6ABE28; }
@@ -2081,3 +2081,5 @@ ol {
   to {
     opacity: 0;
     transform: scale3d(1.5, 1.5, 1); } }
+
+/*# sourceMappingURL=main.css.map */
