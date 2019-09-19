@@ -1,0 +1,66 @@
+.logo-holder {
+ width: 32rem;
+ height: 6rem;
+ margin: 6rem auto 4rem;
+ position: relative;
+ display: flex;
+ .name-holder {
+  width: 15rem;
+  position: relative;
+ }
+ .name,.title {
+  position: absolute;
+  text-transform: uppercase;
+
+ }
+ .name {
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: .25rem;
+ }
+ .name.claudio {
+  top: 1rem;
+  left: 0;
+ }
+ .name.graciolli {
+  bottom: 1rem;
+  left: 1.35rem;
+ }
+ .icon {
+  width: 4rem;
+  height: auto;
+  position: absolute;
+  top:-2.75rem;
+  left: 60%;
+ }
+ .ripple-effect {
+  height: 100px;
+  width: 100px;
+  position: absolute;
+  top:-4.95rem;
+  left:43.5%;
+ }
+ .title-holder {
+   width: 17rem;
+   position: relative;
+   border-left: .1rem solid white;
+   height: 12rem;
+   top: -5.25rem;
+
+ }
+ .title {
+  width: 100%;
+  text-align: left;
+  left: 1.5rem;
+  top: 50%;
+  margin: -1.25rem 0 0;
+  font-size: 125%;
+  letter-spacing: .5rem;
+ }
+}
+
+
+@media screen and (min-width: 600px) {
+ .logo-holder {
+  transform: scale(1.25);
+ }
+}

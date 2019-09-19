@@ -1,0 +1,591 @@
+.btn-back-top {
+ visibility: hidden;
+ border:none;
+ background-color: rgba(255,255,255,.25);
+ color: white;
+ position: relative;
+ margin: 0 0 2rem;
+ display: inline-flex;
+ width: auto;
+ &:hover {
+  transform: scale(1.1);
+ }
+}
+
+.section--consulting-digital-platform {
+  background-color: $dimension-data-blue;
+}
+.section--digital-anatomy-inclusion {
+  background-color: $aps-yellow-1;
+}
+.section--learning-badges {
+  background-color: $idea-purple-1;
+}
+.section--myfusion-class-booking-system {
+  background-color: $fusion-red;
+}
+
+.project--frontend-cdp {
+ &:hover {
+  background-color: darken($dimension-data-blue,10%);
+ }
+}
+
+.project--frontend-digital-anatomy-inclusion {
+ &:hover {
+  background-color: darken($aps-yellow-1,10%);
+ }
+}
+
+.project--frontend-idea-blockchain {
+ &:hover {
+  background-color: darken($idea-purple-1,10%);
+ }
+}
+
+.project--frontend-fusion-timetables {
+ &:hover {
+  background-color: darken($fusion-red,10%);
+ }
+}
+
+.grid-item {
+ visibility: hidden;
+}
+
+.grid-item--title {
+ visibility: visible;
+}
+
+.hide {
+  opacity: 0;
+}
+
+.in-view {
+ opacity: 1;
+}
+
+.project__details {
+  position: absolute;
+  left: 2rem;
+  right: 2rem;
+  bottom: 2rem;
+  color: white;
+  font-size: 1rem;
+}
+
+
+$section-class: 'section';
+$section-expanded-class: 'is-expanded';
+$section-has-expanded-class: 'has-expanded-item';
+$section-transition-property: all;
+$section-transition-duration: 600ms;
+$section-transition-timing-function: cubic-bezier(.4,.2,0,1);
+
+.#{$section-class} {
+  position: absolute;
+  z-index: 0;
+	 width: 50%;
+	 height: 50%;
+  overflow: hidden;
+  transform: scale(1);
+  will-change: transform;
+  transition-property: $section-transition-property;
+  transition-duration: $section-transition-duration;
+  transition-timing-function: $section-transition-timing-function;
+  &:first-child {
+    top: 0;
+    left: 0;
+  }
+  &:nth-child(2) {
+    top: 0;
+    left: 50%;
+  }
+  &:nth-child(3) {
+    top: 50%;
+    left: 0;
+  }
+  &:nth-child(4) {
+    top: 50%;
+    left: 50%;
+  }
+  &.#{$section-expanded-class} {
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    width: 100%;
+    height: auto;
+    .btn-back-top,
+    .project--frontend-myfusion,
+    .project--frontend-idea-responsive,
+    .project--frontend-idea-projects,
+    .project--frontend-idea-ecommerce,
+    .project--frontend-idea-bigdata,
+    .project--frontend-idea-advertising,
+    .project--animations,
+    .grid-item,
+    .project--style-components {
+     visibility: visible;
+    }
+    .grid-item {
+      transition-property: all;
+      transition-duration: 4s;
+    }
+    .project__details {
+      display: none;
+    }
+    .project__grid--intro {
+      padding: 6rem 2rem 0;
+      .grid-item--2 {
+        height: 20rem;
+      }
+    }
+
+    .project--frontend-myfusion {
+     .project__grid--intro {
+      padding: 2rem;
+     }
+     .project__grid--frontend {
+       padding: 0 2rem 2rem;
+     }
+    }
+
+    .project--frontend-cdp {
+     &:hover {
+      background-color: $dimension-data-blue;
+     }
+    }
+
+    .project--frontend-digital-anatomy-inclusion {
+     &:hover {
+      background-color:$aps-yellow-1;
+     }
+    }
+
+    .project--frontend-idea-blockchain {
+     &:hover {
+      background-color:$idea-purple-1;
+     }
+    }
+
+    .project--frontend-fusion-timetables {
+     &:hover {
+      background-color:$fusion-red;
+     }
+    }
+  }
+  .#{$section-has-expanded-class} &:not(.#{$section-expanded-class}) {
+    transform: scale(0);
+    opacity: 0;
+    .project__details {
+      display: flex;
+    }
+  }
+}
+
+
+.trigger-homepage,
+.close-section {
+  position: absolute;
+  display: flex;
+  visibility: hidden;
+  align-items: center;
+  justify-content: center;
+  line-height: 1;
+  font-size: 3rem;
+  text-align: center;
+  color: #fff;
+  opacity: 0;
+  z-index: 2;
+  cursor: pointer;
+  transition: opacity 200ms linear;
+  .#{$section-class}.#{$section-expanded-class} & {
+    visibility: visible;
+    opacity: 1;
+    transition: opacity 200ms linear $section-transition-duration;
+  }
+
+}
+
+.trigger-homepage {
+ width: 2rem;
+ height: 2rem;
+ left: 2rem;
+ top: 2rem;
+ a {
+  width: 4rem;
+  height: 4rem;
+  display: flex;
+  &:hover {
+    .ripple-effect {
+
+       visibility: visible;
+     }
+  }
+  .ripple-effect {
+    height: 50px;
+    width: 50px;
+     visibility: hidden;
+     position: absolute;
+     top: 50%;
+     left:55%;
+     transform: translate(-45%, -50%);
+  }
+ }
+}
+
+.close-section {
+  width: 2.9rem;
+  height: 2.9rem;
+  right: 2rem;
+  top: 1.5rem;
+  border-radius: 50%;
+  font-size: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  .ripple-effect {
+    height: 50px;
+    width: 50px;
+    top: -1rem;
+    left: -1rem;
+    visibility: hidden;
+
+  }
+  &:hover {
+    .ripple-effect {
+       visibility: visible;
+     }
+  }
+}
+
+.project {
+ color: white;
+ width:100%;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+ cursor: pointer;
+ transition: $transition;
+}
+
+.project--frontend-myfusion,
+.project--frontend-idea-responsive,
+.project--frontend-idea-projects,
+.project--frontend-idea-ecommerce,
+.project--frontend-idea-bigdata,
+.project--frontend-idea-advertising,
+.project--animations,
+.project--style-components {
+ visibility: hidden;
+ position: relative;
+}
+
+.project__grid {
+  width: 100%;
+  max-width: 120rem;
+  padding: 2rem;
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-gap: 2rem;
+  position: relative;
+}
+
+.grid-item {
+  position: relative;
+  flex-direction: column;
+  p {
+    margin: 0 0 2rem;
+    &:last-child {
+      margin: 0;
+    }
+  }
+}
+
+.grid-item--1 {
+  grid-row: 1 / 4;
+  align-items: flex-start;
+}
+
+.project--style-components,
+.project__grid--front-end {
+ .grid-item {
+   grid-column: 1 / 9;
+ }
+}
+
+.grid-item--project-screen,
+.grid-item--style-components {
+  height: 20rem;
+  box-shadow: $box-shadow;
+}
+
+.grid-item--project-screen--mobile {
+  height: 34rem;
+}
+
+.grid-item--project-screen {
+  border-radius: $border-radius;
+  cursor: pointer;
+}
+
+.project__grid--intro .grid-item--2 {
+ transition: all 4s;
+}
+
+@media screen and (min-width: 600px) {
+  .project__details {
+    left:3rem;
+    right:3rem;
+    bottom: 3rem;
+    font-size: 1.5rem;
+  }
+
+  .project__grid {
+    grid-gap: 3rem;
+    padding: 3rem;
+  }
+
+  .grid-item--project-screen,
+  .grid-item--style-components {
+    height: 21rem;
+  }
+  .grid-item--project-screen--mobile,
+  .grid-item--style-components--large,
+  .grid-item--project-screen--large {
+    height: 32rem;
+  }
+
+  .trigger-homepage {
+    left: 3rem;
+    top: 3rem;
+   }
+   .close-section {
+     right: 3rem;
+     top: 3rem;
+    }
+
+
+
+  .#{$section-class} {
+    &.#{$section-expanded-class} {
+     .project {
+       cursor: default;
+     }
+
+      .project__grid--intro {
+         padding: 8rem 3rem 0;
+        .grid-item--2 {
+          height: 39rem;
+        }
+      }
+      h1 {
+        font-size:3rem;
+        span {
+         height: 6rem;
+        }
+      }
+
+      .project--frontend-myfusion {
+       .project__grid--intro {
+        padding: 0 3rem 0;
+       }
+       .project__grid--frontend {
+         padding: 0 3rem 3rem;
+       }
+      }
+    }
+  }
+  .btn-back-top {
+   margin: 0 0 3rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+
+ .project__grid--intro {
+   .grid-item--2 {
+     visibility: visible;
+     height: 21.5rem;
+   }
+ }
+
+  .grid-item--project-screen,
+  .grid-item--style-components {
+    height: 29rem;
+   }
+  .grid-item--project-screen--mobile,
+   .grid-item--style-components--large,
+   .grid-item--project-screen--large {
+     height: 44.5rem;
+   }
+
+   .#{$section-class} {
+     &.#{$section-expanded-class} {
+
+       .project__grid--intro {
+         .grid-item--2 {
+           height: 48rem;
+         }
+       }
+
+       .project--frontend-myfusion {
+        .project__grid--intro {
+         padding: 0 3rem 0;
+        }
+        .project__grid--frontend {
+          padding: 0 3rem 3rem;
+        }
+       }
+     }
+   }
+}
+
+@media screen and (width: 1024px) and (height:1366px){
+
+  .project__grid--intro {
+    .grid-item--2 {
+      display: none;
+    }
+  }
+ .#{$section-class} {
+   &.#{$section-expanded-class} {
+
+     .project__grid--intro {
+       .grid-item--2 {
+         height: 57.5rem;
+       }
+     }
+   }
+ }
+}
+
+@media screen and (min-width: 1366px) {
+
+  .project__grid {
+    padding: 3rem 10rem;
+   }
+
+
+  .project__details {
+   font-size: 1rem;
+   left: 10rem;
+   bottom: 4rem;
+  }
+
+  .#{$section-class} {
+    &.#{$section-expanded-class} {
+     .project__grid {
+       padding: 0 0 7rem;
+     }
+     .project__grid--intro {
+       padding: 10rem 0 3rem;
+        .grid-item--2 {
+          height: 57.5rem;
+        }
+      }
+
+      .project--frontend-myfusion {
+        .project__grid--intro {
+         padding: 6rem 3rem 0;
+        }
+
+         .project__grid--frontend {
+           padding: 0 3rem 6rem;
+         }
+       }
+
+      .project--frontend-idea-bigdata,
+      .project--frontend-idea-projects,
+      .project--frontend-idea-ecommerce,
+      .project--frontend-idea-responsive,
+      .project--frontend-idea-advertising,
+      .project--animations {
+       padding: 7rem 0 0;
+      }
+      .project__grid--style-components {
+           padding: 7rem 0;
+      }
+      .grid-item--project-screen,
+      .grid-item--style-components {
+        height: 36rem;
+       }
+       .grid-item--project-screen--mobile,
+       .grid-item--style-components--large,
+       .grid-item--project-screen--large {
+         height: 55.5rem;
+       }
+    }
+  }
+
+
+}
+
+
+
+@media screen and (width: 1366px) and (height:1024px){
+
+  .project__grid--intro {
+    .grid-item--2 {
+      display: flex;
+      height: 30rem;
+    }
+  }
+
+  .project__details {
+    font-size: 1.5rem;
+  }
+
+  .grid-item--project-screen,
+  .grid-item--style-components {
+    height: 42rem;
+   }
+   .grid-item--project-screen--mobile,
+   .grid-item--style-components--large,
+   .grid-item--project-screen--large {
+     height: 57.5rem;
+   }
+}
+
+
+@media screen and (min-width: 1440px) and (min-height:900px){
+ .project__grid--intro {
+   .grid-item--2 {
+     display: flex;
+     height: 32rem;
+   }
+ }
+
+ .project__details {
+   font-size: 1.25rem;
+ }
+
+ .#{$section-class} {
+   &.#{$section-expanded-class} {
+
+     .project__grid--intro {
+       .grid-item--2 {
+         height: 57.5rem;
+       }
+     }
+   }
+ }
+
+}
+
+@media screen and (min-width: 1500px) {
+ .project__grid--intro .grid-item--2 {
+     height: 40rem;
+ }
+ .#{$section-class} {
+   &.#{$section-expanded-class} {
+
+     .project__grid--intro {
+       .grid-item--2 {
+         height: 57.5rem;
+       }
+     }
+   }
+  }
+}

@@ -1,0 +1,114 @@
+html {
+   font-size: 62.5%;
+   font-family: 'Inconsolata', monospace;
+   color: black;
+   font-weight: 400;
+}
+
+a {
+ color: #000;
+ text-decoration: none;
+}
+
+body {
+  font-size: 1.5rem;
+  line-height: 1.4;
+}
+
+h1,h2 {
+  writing-mode: vertical-lr;
+  display: flex;
+  white-space: nowrap;
+  line-height: 1;
+  transition: $transition;
+
+  b {
+   font-weight: 700;
+   display: inline-flex;
+   margin: 0 0 1rem 0;
+  }
+  span {
+   border-left: .1rem solid white;
+   width: auto;
+   height: 2rem;
+   display: inline-block;
+  }
+}
+h1 {
+  font-size: 1.5rem;
+}
+h2 {
+  font-size: 1.85rem;
+  align-items: flex-end;
+}
+
+
+@media screen and (min-width: 600px) {
+  h1 {
+    font-size:1.6rem;
+  }
+  p {
+   font-size: 1.25rem;
+  }
+}
+
+@media screen and (width: 768px) and (height:1024px){
+ h1 {
+   font-size:2.25rem;
+   span {
+    height: 4rem;
+   }
+ }
+}
+
+
+@media screen and (width: 1024px) and (height:1366px){
+ h1 {
+   font-size:3.25rem;
+   span {
+    height: 6rem;
+   }
+ }
+}
+
+@media screen and (min-width: 1366px) {
+  h1 {
+    font-size:1.35rem;
+    span {
+     height: 2rem;
+    }
+  }
+  p {
+   font-size: 1.5rem;
+  }
+}
+
+@media screen and (width: 1366px) and (height:1024px){
+  h1 {
+    font-size:2.25rem;
+    span {
+     height: 4rem;
+    }
+  }
+}
+
+
+@media screen and (min-width: 1440px) and (min-height:900px){
+ h1 {
+   font-size:2rem;
+   span {
+    height: 3rem;
+   }
+ }
+}
+@media screen and (min-width: 1500px) {
+ h1 {
+   font-size:2.5rem;
+   span {
+    height: 4rem;
+   }
+ }
+ p {
+  font-size: 1.5rem;
+ }
+}

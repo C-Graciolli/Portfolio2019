@@ -1,0 +1,48 @@
+* {
+  box-sizing: border-box;
+}
+
+img {
+ width: 100%;
+ height: auto;
+}
+
+button {
+    display: flex;
+    border: none;
+    padding: 1rem 2rem;
+    margin: 0;
+    text-decoration: none;
+    background: rgba(255,255,255,.5);
+    color: #ddd;
+    font-size: 1.5rem;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    transition: $transition;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    border-radius: .5rem;
+}
+
+button:hover,
+button:focus {
+    background:rgba(255,255,255,.85);
+}
+
+button:focus {
+    outline: 2px solid #fff;
+    outline-offset: -4px;
+}
+
+button:active {
+    transform: scale(0.99);
+}
+
+ol {
+ list-style: decimal;
+ margin: 0 0 0 2rem;
+ li {
+  margin: 0 0 1.5rem;
+ }
+}
