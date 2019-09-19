@@ -1550,14 +1550,14 @@ ol {
 .project--frontend-idea-responsive .project__grid--front-end .grid-item--1 {
   grid-row: 1 / 2;
   grid-column: 1 / 5;
-  background: url("../imgs/idea/badge-responsive/badges-resposive-1.jpg") no-repeat 0 0;
+  background: url("../imgs/idea/badge-responsive/badge-resposive-1.jpg") no-repeat 0 0;
   background-size: 100%; }
   .project--frontend-idea-responsive .project__grid--front-end .grid-item--1:hover {
     background-position: 0px 100%; }
 .project--frontend-idea-responsive .project__grid--front-end .grid-item--2 {
   grid-row: 1 / 2;
   grid-column: 5 / 9;
-  background: url("../imgs/idea/badge-responsive/badges-resposive-2.jpg") no-repeat 0 0;
+  background: url("../imgs/idea/badge-responsive/badge-resposive-2.jpg") no-repeat 0 0;
   background-size: 100%; }
   .project--frontend-idea-responsive .project__grid--front-end .grid-item--2:hover {
     background-position: 0px 100%; }
