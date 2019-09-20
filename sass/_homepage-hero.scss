@@ -48,9 +48,9 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  width: auto;
+  width: 80%;
   text-align: left;
-  margin: 3rem 0;
+  margin: 3rem auto 9rem;
   .homepage-hero--nav__item {
     width: auto;
     display: flex;
@@ -91,7 +91,7 @@
 
 .homepage-hero__jetpack-holder {
   position: absolute;
-  bottom: 20%;
+  bottom: 25%;
   right: 4rem;
   width: 20rem;
   height: auto;
