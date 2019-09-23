@@ -70,7 +70,10 @@ h1 {
   h1 {
     font-size: 1.75rem; }
     h1 span {
-      height: 2rem; } }
+      height: 2rem; }
+
+  p {
+    font-size: 1.5rem; } }
 @media screen and (width: 1366px) and (height: 600px) {
   h1 {
     font-size: 2.5rem;
@@ -594,7 +597,7 @@ ol {
   box-shadow: 0 0 2rem rgba(0, 0, 0, 0.2); }
 
 .grid-item--project-screen--mobile {
-  height: 340px; }
+  height: 350px; }
 
 .grid-item--project-screen {
   border-radius: 1rem;
@@ -607,6 +610,15 @@ ol {
   .project__grid {
     grid-gap: 3rem;
     padding: 3rem; }
+
+  .grid-item--project-screen,
+  .grid-item--style-components {
+    height: 210px; }
+
+  .grid-item--project-screen--mobile,
+  .grid-item--style-components--large,
+  .grid-item--project-screen--large {
+    height: 325px; }
 
   .trigger-homepage {
     left: 3rem;
