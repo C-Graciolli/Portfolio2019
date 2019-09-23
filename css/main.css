@@ -597,8 +597,8 @@ ol {
   box-shadow: 0 0 2rem rgba(0, 0, 0, 0.2); }
 
 .grid-item--project-screen--mobile {
-  height: 340px;
-  border: 1px solid green; }
+  height: 360px;
+  border: 1px solid red; }
 
 .grid-item--project-screen {
   border-radius: 1rem;
