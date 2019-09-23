@@ -590,7 +590,7 @@ ol {
 
 .grid-item--project-screen,
 .grid-item--style-components {
-  height: 240px;
+  height: 235px;
   box-shadow: 0 0 2rem rgba(0, 0, 0, 0.2); }
 
 .grid-item--project-screen--mobile {
