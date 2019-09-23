@@ -608,15 +608,6 @@ ol {
     grid-gap: 3rem;
     padding: 3rem; }
 
-  .grid-item--project-screen,
-  .grid-item--style-components {
-    height: 21rem; }
-
-  .grid-item--project-screen--mobile,
-  .grid-item--style-components--large,
-  .grid-item--project-screen--large {
-    height: 32rem; }
-
   .trigger-homepage {
     left: 3rem;
     top: 3rem; }
