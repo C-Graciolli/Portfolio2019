@@ -434,13 +434,16 @@ $section-transition-timing-function: cubic-bezier(.4,.2,0,1);
 
   .project__details {
     font-size: 1.15rem;
-}
+  }
 }
 
 @media screen and (min-width: 600px) and (orientation: landscape) {
   .project__grid--intro {
     .grid-item--3 {
-      height: 13rem;
+      height: 12rem;
+    }
+    .project__details {
+      width: 80%;
     }
   }
 }
@@ -534,12 +537,6 @@ $section-transition-timing-function: cubic-bezier(.4,.2,0,1);
 
    }
 
-
-  // .project__details {
-  //  font-size: 1rem;
-  //  left: 10rem;
-  //  bottom: 4rem;
-  // }
 
   .#{$section-class} {
     &.#{$section-expanded-class} {
