@@ -597,8 +597,7 @@ ol {
   box-shadow: 0 0 2rem rgba(0, 0, 0, 0.2); }
 
 .grid-item--project-screen--mobile {
-  height: 380px;
-  border: 1px solid blue; }
+  height: 380px; }
 
 .grid-item--project-screen {
   border-radius: 1rem;
@@ -1373,6 +1372,9 @@ ol {
 @media screen and (min-width: 1024px) {
   .project--style-components-digital-anatomy-inclusion .project__grid--style-components .grid-item--6 {
     margin: 0 0 -14rem; } }
+.project--frontend-digital-anatomy-inclusion .project__grid--front-end .grid-item--project-screen {
+  height: 260px; }
+
 .project--frontend-idea-blockchain {
   background: #434A96; }
 
