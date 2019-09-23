@@ -53,6 +53,9 @@ h1 {
      display: inline-block;
     }
   }
+  p {
+   font-size: 1.15rem;
+  }
 }
 
 @media screen and (min-width: 600px) and (orientation: landscape) {
@@ -63,11 +66,18 @@ h1 {
       display: none;
     }
   }
+
+}
+
+@media screen and (min-width: 1024px) {
+  h1, h2 {
+    height: auto;
+    width: auto;
+  }
   p {
    font-size: 1.25rem;
   }
 }
-
 
 @media screen and (min-width: 1024px) and (orientation: landscape) {
   h1,h2 {
