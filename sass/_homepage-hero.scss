@@ -43,13 +43,14 @@
 }
 
 .homepage-hero--nav {
-  width: 70%;
+  width: 100%;
   flex-wrap: wrap;
   display: flex;
   justify-content: center;
   align-items: center;
+  width: auto;
   text-align: left;
-  margin: 3rem auto 9rem;
+  margin: 3rem 0;
   .homepage-hero--nav__item {
     width: auto;
     display: flex;
@@ -90,7 +91,7 @@
 
 .homepage-hero__jetpack-holder {
   position: absolute;
-  bottom: 25%;
+  bottom: 20%;
   right: 4rem;
   width: 20rem;
   height: auto;
@@ -162,6 +163,25 @@
     }
  }
 }
+
+
+@media screen and (min-width: 600px) and (orientation: landscape) {
+ .homepage-hero {
+   background: url("../imgs/bg-sky.jpg") no-repeat center center;
+   background-size: 100%;
+ }
+ .homepage-hero__intro {
+   margin: 0;
+ }
+
+
+ .homepage-hero__jetpack-holder {
+   right: 0rem;
+   bottom: 0rem;
+ }
+}
+
+
 
 @media screen and (min-width: 1024px) {
 
