@@ -590,11 +590,11 @@ ol {
 
 .grid-item--project-screen,
 .grid-item--style-components {
-  height: 230px;
+  height: 240px;
   box-shadow: 0 0 2rem rgba(0, 0, 0, 0.2); }
 
 .grid-item--project-screen--mobile {
-  height: 34rem; }
+  height: 340px; }
 
 .grid-item--project-screen {
   border-radius: 1rem;
