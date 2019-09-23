@@ -152,7 +152,7 @@ ol {
     margin: 4rem auto 0; }
 
 .homepage-hero--nav {
-  width: 100%;
+  width: 80%;
   flex-wrap: wrap;
   display: flex;
   justify-content: center;
@@ -191,7 +191,7 @@ ol {
 
 .homepage-hero__jetpack-holder {
   position: absolute;
-  bottom: 20%;
+  bottom: 22.5%;
   right: 4rem;
   width: 20rem;
   height: auto; }
