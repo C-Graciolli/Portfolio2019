@@ -48,6 +48,7 @@
   align-items: center;
   text-align: left;
   margin: 3rem auto;
+  height: auto;
   .homepage-hero--nav__item {
     width: auto;
     display: flex;
@@ -166,8 +167,7 @@
   width: 125%;
   margin-left: -12.5%;
   margin-top: 2rem;
-  border: 1px solid red;
-  display: block;
+  border: 1px solid green;
  }
 
  .homepage-hero__jetpack-holder {
