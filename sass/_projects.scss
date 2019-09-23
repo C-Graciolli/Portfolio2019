@@ -402,10 +402,15 @@ $section-transition-timing-function: cubic-bezier(.4,.2,0,1);
   }
 }
 
+
+
 @media screen and (min-width: 600px) and (orientation: landscape) {
   h1 {
     writing-mode: horizontal-tb;
-    border: 1px solid red;
+    span {
+      border-bottom: .1rem solid white;
+      width: 2rem;
+    }
   }
 }
 

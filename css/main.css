@@ -638,8 +638,10 @@ ol {
     margin: 0 0 3rem; } }
 @media screen and (min-width: 600px) and (orientation: landscape) {
   h1 {
-    writing-mode: horizontal-tb;
-    border: 1px solid red; } }
+    writing-mode: horizontal-tb; }
+    h1 span {
+      border-bottom: .1rem solid white;
+      width: 2rem; } }
 @media screen and (min-width: 1024px) {
   .project__grid--intro .grid-item--2 {
     visibility: visible;
