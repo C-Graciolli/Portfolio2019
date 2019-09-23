@@ -1373,7 +1373,9 @@ ol {
   .project--style-components-digital-anatomy-inclusion .project__grid--style-components .grid-item--6 {
     margin: 0 0 -14rem; } }
 .project--frontend-digital-anatomy-inclusion .project__grid--front-end .grid-item--project-screen {
-  height: 260px; }
+  height: 270px; }
+.project--frontend-digital-anatomy-inclusion .project__grid--front-end .grid-item--project-screen--mobile {
+  height: 380px; }
 
 .project--frontend-idea-blockchain {
   background: #434A96; }
