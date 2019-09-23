@@ -246,9 +246,7 @@ ol {
 
   .homepage-hero--nav {
     width: 125%;
-    margin-left: -12.5%;
-    margin-top: 2rem;
-    border: 1px solid green; }
+    margin-left: -10%; }
 
   .homepage-hero__jetpack-holder {
     right: 4rem;
