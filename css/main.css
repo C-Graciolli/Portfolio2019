@@ -970,16 +970,16 @@ ol {
 @keyframes animation1 {
   0% {
     background: url(../imgs/aps/animations/aps-animation-1-1.svg) no-repeat center 100%;
-    background-size: cover; }
+    background-size: auto 30rem; }
   25% {
     background: url(../imgs/aps/animations/aps-animation-1-1.svg) no-repeat center 100%;
-    background-size: cover; }
+    background-size: auto 30rem; }
   50% {
     background: url(../imgs/aps/animations/aps-animation-1-2.svg) no-repeat center 100%;
-    background-size: cover; }
+    background-size: auto 30rem; }
   100% {
     background: url(../imgs/aps/animations/aps-animation-1-2.svg) no-repeat center 100%;
-    background-size: cover; } }
+    background-size: auto 30rem; } }
 @keyframes animation2 {
   0% {
     background: url(../imgs/aps/animations/aps-animation-2-1.svg) no-repeat 0 100%;
