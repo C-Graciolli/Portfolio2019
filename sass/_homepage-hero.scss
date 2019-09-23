@@ -17,7 +17,6 @@
   display: flex;
   height: auto;
   width: 100%;
-
   position: relative;
   height: 100vh;
 }
@@ -118,27 +117,19 @@
    background: url("../imgs/bg-sky.jpg") no-repeat center center;
    background-size: 200%;
  }
-
  .homepage-hero__wrapper {
    padding: 6rem;
  }
-
-
  .homepage-hero__intro {
    width: 45rem;
    margin: 5% auto 0;
    height: 100%;
-
    p {
-
     font-size: 1.75rem;
    }
-
    button {
     font-size: 1.75rem;
    }
-
-  border: 1px solid red;
  }
 
 
@@ -146,8 +137,6 @@
    right: 10rem;
    bottom: 24rem;
  }
-
-
  .homepage-hero--nav {
   width: 125%;
   margin-left: -12.5%;
@@ -163,7 +152,6 @@
     }
  }
 }
-
 
 @media screen and (min-width: 600px) and (orientation: landscape) {
  .homepage-hero {
@@ -181,8 +169,8 @@
  }
 
  .homepage-hero__jetpack-holder {
-   right: 2rem;
-   bottom: 2rem;
+   right: 4rem;
+   bottom: 4rem;
  }
 }
 

@@ -216,8 +216,7 @@ ol {
   .homepage-hero__intro {
     width: 45rem;
     margin: 5% auto 0;
-    height: 100%;
-    border: 1px solid red; }
+    height: 100%; }
     .homepage-hero__intro p {
       font-size: 1.75rem; }
     .homepage-hero__intro button {
@@ -250,8 +249,8 @@ ol {
     margin-top: 2rem; }
 
   .homepage-hero__jetpack-holder {
-    right: 2rem;
-    bottom: 2rem; } }
+    right: 4rem;
+    bottom: 4rem; } }
 @media screen and (min-width: 1024px) and (orientation: landscape) {
   .homepage-hero {
     background: url("../imgs/bg-sky.jpg") no-repeat center center;
