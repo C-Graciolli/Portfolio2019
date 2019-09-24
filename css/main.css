@@ -974,16 +974,16 @@ ol {
 
 @keyframes animation1 {
   0% {
-    background: url(../imgs/aps/animations/aps-animation-1-1.png) no-repeat center 100%;
+    background: url(../imgs/aps/animations/aps-animation-1-1.svg) no-repeat center 100%;
     background-size: 70%; }
   25% {
-    background: url(../imgs/aps/animations/aps-animation-1-1.png) no-repeat center 100%;
+    background: url(../imgs/aps/animations/aps-animation-1-1.svg) no-repeat center 100%;
     background-size: 70%; }
   50% {
-    background: url(../imgs/aps/animations/aps-animation-1-2.png) no-repeat center 100%;
+    background: url(../imgs/aps/animations/aps-animation-1-2.svg) no-repeat center 100%;
     background-size: 70%; }
   100% {
-    background: url(../imgs/aps/animations/aps-animation-1-2.png) no-repeat center 100%;
+    background: url(../imgs/aps/animations/aps-animation-1-2.svg) no-repeat center 100%;
     background-size: 70%; } }
 @keyframes animation2 {
   0% {
@@ -1240,26 +1240,18 @@ ol {
   .grid-item--desktop-only p {
     display: none; }
 
+.project--frontend-digital-anatomy-inclusion .project__grid--front-end .grid-item--project-screen {
+  height: 265px; }
+.project--frontend-digital-anatomy-inclusion .project__grid--front-end .grid-item--project-screen--mobile {
+  height: 380px; }
+
 @media screen and (min-width: 600px) {
-  @keyframes animation1 {
-    0% {
-      background: url(../imgs/aps/animations/aps-animation-1-1.png) no-repeat center 100%;
-      background-size: 50%; }
-    25% {
-      background: url(../imgs/aps/animations/aps-animation-1-1.png) no-repeat center 100%;
-      background-size: 50%; }
-    50% {
-      background: url(../imgs/aps/animations/aps-animation-1-2.png) no-repeat center 100%;
-      background-size: 50%; }
-    100% {
-      background: url(../imgs/aps/animations/aps-animation-1-2.png) no-repeat center 100%;
-      background-size: 50%; } }
   .project--frontend-digital-anatomy-inclusion .project__grid--intro .grid-item--2 {
     grid-row: 1 / 1;
     grid-column: 2 / 9; }
   .project--frontend-digital-anatomy-inclusion .project__grid--intro .grid-item--3-1 {
-    grid-row: 3 / 4;
-    grid-column: 3 / 5; }
+    grid-row: 2 / 4;
+    grid-column: 1 / 3; }
   .project--frontend-digital-anatomy-inclusion .project__grid--intro .grid-item--4 {
     grid-row: 2 / 3;
     grid-column: 1 / 5; }
@@ -1364,7 +1356,16 @@ ol {
     height: 50rem;
     margin: 0 0 -10rem;
     grid-row: 3 / 4;
-    grid-column: 3 / 9; } }
+    grid-column: 3 / 9; }
+
+  .project--frontend-digital-anatomy-inclusion .project__grid--front-end .grid-item--project-screen--large {
+    height: 37rem; }
+  .project--frontend-digital-anatomy-inclusion .project__grid--front-end .grid-item--project-screen--mobile {
+    height: 37rem; }
+
+  .project--frontend-digital-anatomy-inclusion .project__grid--front-end .grid-item--3-1 {
+    grid-row: 2 / 4;
+    grid-column: 1 / 3; } }
 @media screen and (min-width: 1024px) {
   .project--style-components-digital-anatomy-inclusion .project__grid--style-components .grid-item--6 {
     margin: 0 0 -14rem; }
@@ -1375,12 +1376,21 @@ ol {
   .grid-item--desktop-only {
     display: flex; }
     .grid-item--desktop-only p {
-      display: flex; } }
-.project--frontend-digital-anatomy-inclusion .project__grid--front-end .grid-item--project-screen {
-  height: 265px; }
-.project--frontend-digital-anatomy-inclusion .project__grid--front-end .grid-item--project-screen--mobile {
-  height: 380px; }
+      display: flex; }
 
+  .project--frontend-digital-anatomy-inclusion .project__grid--front-end .grid-item--project-screen {
+    height: 33rem; }
+  .project--frontend-digital-anatomy-inclusion .project__grid--front-end .grid-item--project-screen--large {
+    height: 47rem; }
+  .project--frontend-digital-anatomy-inclusion .project__grid--front-end .grid-item--project-screen--mobile {
+    height: 47rem; } }
+@media screen and (min-width: 1366px) {
+  .project--frontend-digital-anatomy-inclusion .project__grid--front-end .grid-item--project-screen {
+    height: 41.5rem; }
+  .project--frontend-digital-anatomy-inclusion .project__grid--front-end .grid-item--project-screen--large {
+    height: 60rem; }
+  .project--frontend-digital-anatomy-inclusion .project__grid--front-end .grid-item--project-screen--mobile {
+    height: 60rem; } }
 .project--frontend-idea-blockchain {
   background: #434A96; }
 
