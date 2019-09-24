@@ -41,70 +41,134 @@ h1 {
 
 @media screen and (min-width: 600px) {
   h1 {
+    font-size: 2.25rem;
+  }
+  .section.is-expanded h1 {
+    writing-mode: vertical-lr;
+    font-size: 3rem;
+    span {
+     border-left: .1rem solid white;
+     width: auto;
+     height: 2rem;
+     display: inline-block;
+    }
+  }
+  p {
+   font-size: 1.15rem;
+  }
+}
+
+@media screen and (min-width: 600px) and (orientation: landscape) {
+  h1 {
     font-size:1.6rem;
+    writing-mode: horizontal-tb;
+    span {
+      display: none;
+    }
+  }
+
+}
+
+@media screen and (min-width: 1024px) {
+  h1, h2 {
+    height: auto;
+    width: auto;
   }
   p {
    font-size: 1.25rem;
   }
 }
 
-@media screen and (width: 768px) and (height:1024px){
- h1 {
-   font-size:2.25rem;
-   span {
-    height: 4rem;
-   }
- }
-}
-
-
-@media screen and (width: 1024px) and (height:1366px){
- h1 {
-   font-size:3.25rem;
-   span {
-    height: 6rem;
-   }
- }
+@media screen and (min-width: 1024px) and (orientation: landscape) {
+  h1,h2 {
+    width: 100%;
+    writing-mode: vertical-lr;
+    font-size: 2rem;
+    span {
+     height: 2rem;
+     border-left: .1rem solid white;
+     width: auto;
+     height: 2rem;
+     display: inline-block;
+    }
+  }
 }
 
 @media screen and (min-width: 1366px) {
   h1 {
-    font-size:1.35rem;
+    font-size:1.75rem;
     span {
      height: 2rem;
     }
   }
   p {
-   font-size: 1.5rem;
+    font-size: 1.5rem;
   }
 }
 
-@media screen and (width: 1366px) and (height:1024px){
+@media screen and (width: 1366px) and (height:600px){
+
   h1 {
-    font-size:2.25rem;
-    span {
-     height: 4rem;
-    }
+      font-size:2.5rem;
+      writing-mode: horizontal-tb;
+      span {
+        border-left: none;
+        border-bottom: 1px solid white;
+        width: 4rem;
+      }
   }
 }
 
 
-@media screen and (min-width: 1440px) and (min-height:900px){
- h1 {
-   font-size:2rem;
-   span {
-    height: 3rem;
-   }
- }
-}
-@media screen and (min-width: 1500px) {
- h1 {
-   font-size:2.5rem;
-   span {
-    height: 4rem;
-   }
- }
- p {
-  font-size: 1.5rem;
- }
-}
+
+//
+// @media screen and (width: 768px) and (height:1024px){
+//  h1 {
+//    font-size:2.25rem;
+//    span {
+//     height: 4rem;
+//    }
+//  }
+// }
+//
+//
+// @media screen and (width: 1024px) and (height:1366px){
+//  h1 {
+//    font-size:3.25rem;
+//    span {
+//     height: 6rem;
+//    }
+//  }
+// }
+//
+
+//
+// @media screen and (width: 1366px) and (height:1024px){
+//   h1 {
+//     font-size:2.25rem;
+//     span {
+//      height: 4rem;
+//     }
+//   }
+// }
+//
+//
+// @media screen and (min-width: 1440px) and (min-height:900px){
+//  h1 {
+//    font-size:2rem;
+//    span {
+//     height: 3rem;
+//    }
+//  }
+// }
+// @media screen and (min-width: 1500px) {
+//  h1 {
+//    font-size:2.5rem;
+//    span {
+//     height: 4rem;
+//    }
+//  }
+//  p {
+//   font-size: 1.5rem;
+//  }
+// }
