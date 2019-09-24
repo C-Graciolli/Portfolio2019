@@ -49,7 +49,6 @@
   animation: animation3;
   animation-duration: 4s;
   animation-iteration-count: infinite;
-
 }
 
 .aps-animation-4 {
@@ -57,7 +56,6 @@
   animation: animation4;
   animation-duration: 4s;
   animation-iteration-count: infinite;
-
 }
 
 .aps-animation-5 {
@@ -65,6 +63,7 @@
   animation: animation5;
   animation-duration: 4s;
   animation-iteration-count: infinite;
+
 }
 
 .aps-animation-6 {
@@ -408,16 +407,7 @@
 
 @media screen and (min-width: 600px) {
 
-  .grid-item--mobile-only {
-    display: none;
-  }
 
-  .grid-item--desktop-only {
-    display: flex;
-    p {
-      display: flex;
-    }
-  }
   @keyframes animation1 {
     0% { background: url(../imgs/aps/animations/aps-animation-1-1.png) no-repeat center 100%;background-size: 50%; }
     25% { background: url(../imgs/aps/animations/aps-animation-1-1.png) no-repeat center 100%;background-size: 50%; }
@@ -506,7 +496,6 @@
       grid-row: 5 / 6;
       grid-column: 5 / 9;
       justify-content: flex-start;
-      display: flex;
       align-items: flex-end;
       p {
         width: 50%;
@@ -604,6 +593,16 @@
 @media screen and (min-width: 1024px) {
   .project--style-components-digital-anatomy-inclusion .project__grid--style-components .grid-item--6 {
       margin: 0 0 -14rem;
+  }
+  .grid-item--mobile-only {
+    display: none;
+  }
+
+  .grid-item--desktop-only {
+    display: flex;
+    p {
+      display: flex;
+    }
   }
 }
 
