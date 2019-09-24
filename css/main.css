@@ -640,11 +640,9 @@ ol {
   .section.is-expanded .project__grid--intro {
     padding: 8rem 3rem 0; }
     .section.is-expanded .project__grid--intro .grid-item--2 {
-      height: 39rem; }
-  .section.is-expanded h1 {
-    font-size: 3.5rem; }
-    .section.is-expanded h1 span {
-      height: 6rem; }
+      height: 48rem; }
+  .section.is-expanded h1 span {
+    height: 6rem; }
   .section.is-expanded .project--frontend-myfusion .project__grid--intro {
     padding: 0 3rem 0; }
   .section.is-expanded .project--frontend-myfusion .project__grid--frontend {
@@ -977,80 +975,80 @@ ol {
 @keyframes animation1 {
   0% {
     background: url(../imgs/aps/animations/aps-animation-1-1.svg) no-repeat center 100%;
-    background-size: cover; }
+    background-size: 70%; }
   25% {
     background: url(../imgs/aps/animations/aps-animation-1-1.svg) no-repeat center 100%;
-    background-size: cover; }
+    background-size: 70%; }
   50% {
     background: url(../imgs/aps/animations/aps-animation-1-2.svg) no-repeat center 100%;
-    background-size: cover; }
+    background-size: 70%; }
   100% {
     background: url(../imgs/aps/animations/aps-animation-1-2.svg) no-repeat center 100%;
-    background-size: cover; } }
+    background-size: 70%; } }
 @keyframes animation2 {
   0% {
-    background: url(../imgs/aps/animations/aps-animation-2-1.svg) no-repeat 0 100%;
+    background: url(../imgs/aps/animations/aps-animation-2-1.png) no-repeat 0 100%;
     background-size: cover; }
   25% {
-    background: url(../imgs/aps/animations/aps-animation-2-1.svg) no-repeat 0 100%;
+    background: url(../imgs/aps/animations/aps-animation-2-1.png) no-repeat 0 100%;
     background-size: cover; }
   50% {
-    background: url(../imgs/aps/animations/aps-animation-2-2.svg) no-repeat 0 100%;
+    background: url(../imgs/aps/animations/aps-animation-2-2.png) no-repeat 0 100%;
     background-size: cover; }
   100% {
-    background: url(../imgs/aps/animations/aps-animation-2-2.svg) no-repeat 0 100%;
+    background: url(../imgs/aps/animations/aps-animation-2-2.png) no-repeat 0 100%;
     background-size: cover; } }
 @keyframes animation3 {
   0% {
-    background: url(../imgs/aps/animations/aps-animation-3-1.svg) no-repeat center 100%;
+    background: url(../imgs/aps/animations/aps-animation-3-1.png) no-repeat center 100%;
     background-size: cover; }
   25% {
-    background: url(../imgs/aps/animations/aps-animation-3-2.svg) no-repeat center 100%;
+    background: url(../imgs/aps/animations/aps-animation-3-2.png) no-repeat center 100%;
     background-size: cover; }
   50% {
-    background: url(../imgs/aps/animations/aps-animation-3-3.svg) no-repeat center 100%;
+    background: url(../imgs/aps/animations/aps-animation-3-3.png) no-repeat center 100%;
     background-size: cover; }
   100% {
-    background: url(../imgs/aps/animations/aps-animation-3-4.svg) no-repeat center 100%;
+    background: url(../imgs/aps/animations/aps-animation-3-4.png) no-repeat center 100%;
     background-size: cover; } }
 @keyframes animation4 {
   0% {
-    background: url(../imgs/aps/animations/aps-animation-4-1.svg) no-repeat center 100%;
+    background: url(../imgs/aps/animations/aps-animation-4-1.png) no-repeat center 100%;
     background-size: 80%; }
   25% {
-    background: url(../imgs/aps/animations/aps-animation-4-1.svg) no-repeat center 100%;
+    background: url(../imgs/aps/animations/aps-animation-4-1.png) no-repeat center 100%;
     background-size: 80%; }
   50% {
-    background: url(../imgs/aps/animations/aps-animation-4-2.svg) no-repeat center 100%;
+    background: url(../imgs/aps/animations/aps-animation-4-2.png) no-repeat center 100%;
     background-size: 80%; }
   100% {
-    background: url(../imgs/aps/animations/aps-animation-4-2.svg) no-repeat center 100%;
+    background: url(../imgs/aps/animations/aps-animation-4-2.png) no-repeat center 100%;
     background-size: 80%; } }
 @keyframes animation5 {
   0% {
-    background: url(../imgs/aps/animations/aps-animation-5-1.svg) no-repeat center center;
+    background: url(../imgs/aps/animations/aps-animation-5-1.png) no-repeat center center;
     background-size: cover; }
   25% {
-    background: url(../imgs/aps/animations/aps-animation-5-1.svg) no-repeat center center;
+    background: url(../imgs/aps/animations/aps-animation-5-1.png) no-repeat center center;
     background-size: cover; }
   50% {
-    background: url(../imgs/aps/animations/aps-animation-5-2.svg) no-repeat center center;
+    background: url(../imgs/aps/animations/aps-animation-5-2.png) no-repeat center center;
     background-size: cover; }
   100% {
-    background: url(../imgs/aps/animations/aps-animation-5-2.svg) no-repeat center center;
+    background: url(../imgs/aps/animations/aps-animation-5-2.png) no-repeat center center;
     background-size: cover; } }
 @keyframes animation6 {
   0% {
-    background: url(../imgs/aps/animations/aps-animation-6-1.svg) no-repeat 100% 100%;
+    background: url(../imgs/aps/animations/aps-animation-6-1.png) no-repeat 100% 100%;
     background-size: cover; }
   25% {
-    background: url(../imgs/aps/animations/aps-animation-6-1.svg) no-repeat 100% 100%, url(../imgs/aps/animations/aps-animation-6-2.svg) no-repeat 100% 100%;
+    background: url(../imgs/aps/animations/aps-animation-6-1.png) no-repeat 100% 100%, url(../imgs/aps/animations/aps-animation-6-2.png) no-repeat 100% 100%;
     background-size: cover; }
   50% {
-    background: url(../imgs/aps/animations/aps-animation-6-1.svg) no-repeat 100% 100%, url(../imgs/aps/animations/aps-animation-6-3.svg) no-repeat 100% 100%;
+    background: url(../imgs/aps/animations/aps-animation-6-1.png) no-repeat 100% 100%, url(../imgs/aps/animations/aps-animation-6-3.png) no-repeat 100% 100%;
     background-size: cover; }
   100% {
-    background: url(../imgs/aps/animations/aps-animation-6-1.svg) no-repeat 100% 100%, url(../imgs/aps/animations/aps-animation-6-4.svg) no-repeat 100% 100%;
+    background: url(../imgs/aps/animations/aps-animation-6-1.png) no-repeat 100% 100%, url(../imgs/aps/animations/aps-animation-6-4.png) no-repeat 100% 100%;
     background-size: cover; } }
 .project--frontend-digital-anatomy-inclusion .project__grid--intro .grid-item--2 {
   grid-row: 1 / 2;
@@ -1253,17 +1251,17 @@ ol {
 
   @keyframes animation1 {
     0% {
-      background: url(../imgs/aps/animations/aps-animation-1-1.svg) no-repeat center 100%;
-      background-size: 65%; }
+      background: url(../imgs/aps/animations/aps-animation-1-1.png) no-repeat center 100%;
+      background-size: 50%; }
     25% {
-      background: url(../imgs/aps/animations/aps-animation-1-1.svg) no-repeat center 100%;
-      background-size: 65%; }
+      background: url(../imgs/aps/animations/aps-animation-1-1.png) no-repeat center 100%;
+      background-size: 50%; }
     50% {
-      background: url(../imgs/aps/animations/aps-animation-1-2.svg) no-repeat center 100%;
-      background-size: 65%; }
+      background: url(../imgs/aps/animations/aps-animation-1-2.png) no-repeat center 100%;
+      background-size: 50%; }
     100% {
-      background: url(../imgs/aps/animations/aps-animation-1-2.svg) no-repeat center 100%;
-      background-size: 65%; } }
+      background: url(../imgs/aps/animations/aps-animation-1-2.png) no-repeat center 100%;
+      background-size: 50%; } }
   .project--frontend-digital-anatomy-inclusion .project__grid--intro .grid-item--2 {
     grid-row: 1 / 1;
     grid-column: 2 / 9; }
