@@ -1,0 +1,19 @@
+.slider ul {
+	padding: 60px;
+	margin: 0 auto;
+}
+
+.slide-2 {
+	background-image: url(../images/slide-2.png);
+	background-repeat: no-repeat;
+}
+
+.slide-3 {
+	background-image: url(../images/slide-3.png);
+	background-repeat: no-repeat;
+}
+
+.slide-5 {
+	background-image: url(../images/slide-5.png);
+	background-repeat: no-repeat;
+}

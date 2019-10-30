@@ -1,0 +1,125 @@
+@font-face {
+    font-family: 'bebas_neuebold';
+    src: url('../fonts/BebasNeue Bold-webfont.eot');
+    src: url('../fonts/BebasNeue Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/BebasNeue Bold-webfont.woff2') format('woff2'),
+         url('../fonts/BebasNeue Bold-webfont.woff') format('woff'),
+         url('../fonts/BebasNeue Bold-webfont.ttf') format('truetype'),
+         url('../fonts/BebasNeue Bold-webfont.svg#bebas_neuebold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'bebas_neuebook';
+    src: url('../fonts/BebasNeue Book-webfont.eot');
+    src: url('../fonts/BebasNeue Book-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/BebasNeue Book-webfont.woff2') format('woff2'),
+         url('../fonts/BebasNeue Book-webfont.woff') format('woff'),
+         url('../fonts/BebasNeue Book-webfont.ttf') format('truetype'),
+         url('../fonts/BebasNeue Book-webfont.svg#bebas_neuebook') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'bebas_neuelight';
+    src: url('../fonts/BebasNeue Light-webfont.eot');
+    src: url('../fonts/ebasNeue Light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/BebasNeue Light-webfont.woff2') format('woff2'),
+         url('../fonts/BebasNeue Light-webfont.woff') format('woff'),
+         url('../fonts/BebasNeue Light-webfont.ttf') format('truetype'),
+         url('../fonts/BebasNeue Light-webfont.svg#bebas_neuelight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'bebas_neue_regularregular';
+    src: url('../fonts/BebasNeue Regular-webfont.eot');
+    src: url('../fonts/BebasNeue Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/BebasNeue Regular-webfont.woff2') format('woff2'),
+         url('../fonts/BebasNeue Regular-webfont.woff') format('woff'),
+         url('../fonts/BebasNeue Regular-webfont.ttf') format('truetype'),
+         url('../fonts/BebasNeue Regular-webfont.svg#bebas_neue_regularregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gibson Light';
+    src:url('../fonts/canada_type_-_gibson-light-webfont.eot');
+    src:url('../fonts/canada_type_-_gibson-light-webfont.eot') format('embedded-opentype'),
+        url('../fonts/canada_type_-_gibson-light-webfont.woff') format('woff'),
+        url('../fonts/canada_type_-_gibson-light-webfont.ttf') format('truetype'),
+        url('../fonts/canada_type_-_gibson-light-webfont.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gibson Regular';
+    src:url('../fonts/canada_type_-_gibson-regular-webfont.eot');
+    src:url('../fonts/canada_type_-_gibson-regular-webfont.eot') format('embedded-opentype'),
+        url('../fonts/canada_type_-_gibson-regular-webfont.woff') format('woff'),
+        url('../fonts/canada_type_-_gibson-regular-webfont.ttf') format('truetype'),
+        url('../fonts/canada_type_-_gibson-regular-webfont.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gibson Semibold';
+    src:url('../fonts/canada_type_-_gibson-semibold-webfont.eot');
+    src:url('../fonts/canada_type_-_gibson-semibold-webfont.eot') format('embedded-opentype'),
+        url('../fonts/canada_type_-_gibson-semibold-webfont.woff') format('woff'),
+        url('../fonts/canada_type_-_gibson-semibold-webfont.ttf') format('truetype'),
+        url('../fonts/canada_type_-_gibson-semibold-webfont.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Egizio URW Bold';
+    src:url('../fonts/urw_-_egiziourw-bol-webfont.eot');
+    src:url('../fonts/urw_-_egiziourw-bol-webfont.eot') format('embedded-opentype'),
+        url('../fonts/urw_-_egiziourw-bol-webfont.woff') format('woff'),
+        url('../fonts/urw_-_egiziourw-bol-webfont.ttf') format('truetype'),
+        url('../fonts/urw_-_egiziourw-bol-webfont.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Egizio URW Bold Italic';
+    src:url('../fonts/urw_-_egiziourw-bolita-webfont.eot');
+    src:url('../fonts/urw_-_egiziourw-bolita-webfont.eot') format('embedded-opentype'),
+        url('../fonts/urw_-_egiziourw-bolita-webfont.woff') format('woff'),
+        url('../fonts/urw_-_egiziourw-bolita-webfont.ttf') format('truetype'),
+        url('../fonts/urw_-_egiziourw-bolita-webfont.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Egizio URW Italic';
+    src:url('../fonts/urw_-_egiziourw-ita-webfont.eot');
+    src:url('../fonts/urw_-_egiziourw-ita-webfont.eot') format('embedded-opentype'),
+        url('../fonts/urw_-_egiziourw-ita-webfont.woff') format('woff'),
+        url('../fonts/urw_-_egiziourw-ita-webfont.ttf') format('truetype'),
+        url('../fonts/urw_-_egiziourw-ita-webfont.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Egizio URW Bold Regular';
+    src:url('../fonts/urw_-_egiziourw-reg-webfont.eot');
+    src:url('../fonts/urw_-_egiziourw-reg-webfont.eot') format('embedded-opentype'),
+        url('../fonts/urw_-_egiziourw-reg-webfont.woff') format('woff'),
+        url('../fonts/urw_-_egiziourw-reg-webfont.ttf') format('truetype'),
+        url('../fonts/urw_-_egiziourw-reg-webfont.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
