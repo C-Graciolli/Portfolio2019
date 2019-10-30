@@ -385,6 +385,12 @@ g path:hover { opacity: .65; }
   font-size: 5em;
 }
 
+#section2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 #section2 .copy {
   width: 100%;
   padding-top: 80px;
