@@ -100,13 +100,17 @@ img,
 }
 
 .wrap {
-	width: 100%;
-	max-width: 1024px;
-	height: 100%;
-	margin-left: auto;
-	margin-right: auto;
-	position: relative;
-	padding: 0;
+    width: 100%;
+    max-width: 1024px;
+    height: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    padding: 0;
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 /*
