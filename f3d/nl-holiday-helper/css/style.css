@@ -1,0 +1,1424 @@
+@font-face {
+	font-family: 'GibsonLight';
+	src:url('../fonts/canada_type_-_gibson-light-webfont.eot');
+	src:url('../fonts/canada_type_-_gibson-light-webfont.eot') format('embedded-opentype'),
+		url('../fonts/canada_type_-_gibson-light-webfont.woff') format('woff'),
+		url('../fonts/canada_type_-_gibson-light-webfont.ttf') format('truetype'),
+		url('../fonts/canada_type_-_gibson-light-webfont.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'GibsonRegular';
+	src:url('../fonts/canada_type_-_gibson-regular-webfont.eot');
+	src:url('../fonts/canada_type_-_gibson-regular-webfont.eot') format('embedded-opentype'),
+		url('../fonts/canada_type_-_gibson-regular-webfont.woff') format('woff'),
+		url('../fonts/canada_type_-_gibson-regular-webfont.ttf') format('truetype'),
+		url('../fonts/canada_type_-_gibson-regular-webfont.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'GibsonSemiBold';
+	src:url('../fonts/canada_type_-_gibson-semibold-webfont.eot');
+	src:url('../fonts/canada_type_-_gibson-semibold-webfont.eot') format('embedded-opentype'),
+		url('../fonts/canada_type_-_gibson-semibold-webfont.woff') format('woff'),
+		url('../fonts/canada_type_-_gibson-semibold-webfont.ttf') format('truetype'),
+		url('../fonts/canada_type_-_gibson-semibold-webfont.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'EgizioBold';
+	src:url('../fonts/urw_-_egiziourw-bol-webfont.eot');
+	src:url('../fonts/urw_-_egiziourw-bol-webfont.eot') format('embedded-opentype'),
+		url('../fonts/urw_-_egiziourw-bol-webfont.woff') format('woff'),
+		url('../fonts/urw_-_egiziourw-bol-webfont.ttf') format('truetype'),
+		url('../fonts/urw_-_egiziourw-bol-webfont.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'EgizioBoldItalic';
+	src:url('../fonts/urw_-_egiziourw-bolita-webfont.eot');
+	src:url('../fonts/urw_-_egiziourw-bolita-webfont.eot') format('embedded-opentype'),
+		url('../fonts/urw_-_egiziourw-bolita-webfont.woff') format('woff'),
+		url('../fonts/urw_-_egiziourw-bolita-webfont.ttf') format('truetype'),
+		url('../fonts/urw_-_egiziourw-bolita-webfont.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'EgizioItalic';
+	src:url('../fonts/urw_-_egiziourw-ita-webfont.eot');
+	src:url('../fonts/urw_-_egiziourw-ita-webfont.eot') format('embedded-opentype'),
+		url('../fonts/urw_-_egiziourw-ita-webfont.woff') format('woff'),
+		url('../fonts/urw_-_egiziourw-ita-webfont.ttf') format('truetype'),
+		url('../fonts/urw_-_egiziourw-ita-webfont.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'EgizioReg';
+	src:url('../fonts/urw_-_egiziourw-reg-webfont.eot');
+	src:url('../fonts/urw_-_egiziourw-reg-webfont.eot') format('embedded-opentype'),
+		url('../fonts/urw_-_egiziourw-reg-webfont.woff') format('woff'),
+		url('../fonts/urw_-_egiziourw-reg-webfont.ttf') format('truetype'),
+		url('../fonts/urw_-_egiziourw-reg-webfont.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+/* ============================ INTRO ============================ */
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.NL_HH_container {
+	position: relative;
+	margin: 0 auto;
+	width: 100%;
+	max-width: 1360px;
+	background-color: #FFF;
+	color: #000;
+	font-size: 100%;
+}
+
+.NL_HH_container header {
+	width: 70%;
+	position: relative;
+	text-align: center;
+	margin: 60px auto 0 auto;
+}
+
+.NL_HH_container .intro h1 {
+	font-size: 200%;
+	letter-spacing: 6px;
+	font-family: 'GibsonRegular';
+}
+
+.NL_HH_container .intro h1 span {
+	font-family: 'EgizioItalic';
+	letter-spacing: 0px;
+}
+
+.NL_HH_container .intro p {
+	font-family: 'GibsonLight';
+	width: 75%;
+	font-size: 100%;
+	letter-spacing: 1px;
+	line-height: 1.5;
+	margin: 50px auto;
+}
+
+.NL_HH_container .share {
+	width: 100%;
+	height: 60px;
+	position: relative;
+	margin-top: 30px;
+}
+
+.NL_HH_container .share .social-icon,
+.NL_HH_container .shop {
+	font-family: 'GibsonLight';
+	letter-spacing: 0.125em;
+	font-size: 90%;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #000;
+	display: inline-block;
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	-moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+	background-color: #FFF;
+	border: 1px solid #000;
+	line-height: 60px;
+	cursor: pointer;
+		    transition: all 0.8s ease-in-out;
+       -moz-transition: all 0.8s ease-in-out;
+     webkit-transition: all 0.8s ease-in-out;
+      	 -o-transition: all 0.8s ease-in-out;
+       	-ms-transition: all 0.8s ease-in-out;
+}
+
+.NL_HH_container .share .facebook {
+	background-image: url(../img/icon-facebook.png);
+	margin-right: .75em;
+}
+
+.NL_HH_container .share .facebook:hover {
+	background-image: url(../img/icon-facebook-2.png);
+	background-color: #3B5998;
+	border: 1px solid #3B5998;
+}
+
+.NL_HH_container .share .twitter {
+	background-image: url(../img/icon-twitter.png);
+	margin-right: .75em;
+}
+
+.NL_HH_container .share .twitter:hover {
+	background-image: url(../img/icon-twitter-2.png);
+	background-color: #5EA9DD;
+	border: 1px solid #5EA9DD;
+}
+
+.NL_HH_container .intro-line {
+	border-top: 2px solid #000;
+	width: 40px;
+	margin: 50px auto 0 auto;
+}
+
+/* ============================ FORM ============================ */
+
+.NL_HH_container form {
+	padding-bottom: 20px;
+	width: 100%;
+	text-align: center;
+	letter-spacing: 1px;
+	margin: 0 auto;
+	position: relative;
+}
+
+.NL_HH_container form h2,
+.NL_HH_container .checklist h2 {
+	font-size: 200%;
+	padding: 0;
+	letter-spacing: 3px;
+	font-family: 'GibsonLight';
+	text-align: center;
+}
+
+
+.NL_HH_container .checklist h2 {
+	margin: 0;
+}
+
+.NL_HH_container .questions input,
+.NL_HH_container .checklist .bag-weight input {
+	outline: none;
+    -webkit-appearance:none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    appearance: none;
+    box-shadow: none;
+    cursor: pointer;
+}
+
+.NL_HH_container .questions input[type=submit],
+.NL_HH_container .start-again,
+.NL_HH_container .back,
+.NL_HH_container .checklist .bag-weight input {
+	font-family: 'GibsonLight';
+	text-transform: uppercase;
+	outline: none;
+    -webkit-appearance:none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    appearance: none;
+    box-shadow: none;
+   	display: block;
+	border: 1px solid #FFF;
+	padding: 8px 40px;
+	margin: 30px auto 30px auto;
+	color: #000;
+	background-color: transparent;
+	font-size: 140%;
+	text-align: center;
+	letter-spacing: 2px;
+	            transition: all 0.4s ease-in-out;
+           -moz-transition: all 0.4s ease-in-out;
+        -webkit-transition: all 0.4s ease-in-out;
+        	 -o-transition: all 0.4s ease-in-out;
+        	-ms-transition: all 0.4s ease-in-out;
+}
+
+.NL_HH_container .start-again {
+	display: inline-block;
+	width: 200px;
+	text-decoration: none;
+	margin: 30px 0;
+	padding: 8px 10px;
+	font-size: 100%;
+	border: 1px solid #E8E8E8;
+	float: right;
+}
+
+.NL_HH_container .start-again:hover {
+	border: 1px solid #000;
+}
+
+.NL_HH_container .questions input[type=submit] {
+	border: 1px solid #000;
+	width: 40%;
+	height: 60px;
+	color: #000;
+	background-color: #FFF;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%,-50%);
+	   -moz-transform: translate(-50%,-50%);
+	    -ms-transform: translate(-50%,-50%);
+	     -o-transform: translate(-50%,-50%);
+	        transform: translate(-50%,-50%);
+
+}
+
+.NL_HH_container input[type=submit]:hover {
+	padding-right: 10px;
+}
+
+
+/* ============================ GENDER INPUTS ============================ */
+
+.NL_HH_container input[type=radio].gender {
+    position: relative;
+    opacity: 0;
+    width: 460px;
+    height: 670px;
+}
+
+.NL_HH_container input[type=radio] + label.gender-girl {
+	background-image: url(../img/gender-girl.jpg);
+    display:inline-block;
+    width: 460px;
+    height: 670px;
+    margin-left: -460px;
+                transition: all 0.4s ease-in-out;
+           -moz-transition: all 0.4s ease-in-out;
+        -webkit-transition: all 0.4s ease-in-out;
+        	 -o-transition: all 0.4s ease-in-out;
+        	-ms-transition: all 0.4s ease-in-out;
+}
+
+.NL_HH_container input[type=radio]:hover + label.gender-girl {
+	background-image: url(../img/gender-girl-2.jpg);
+}
+
+.NL_HH_container input[type=radio]:checked + label.gender-girl {
+	background-image: url(../img/gender-girl-2.jpg);
+}
+
+.NL_HH_container input[type=radio] + label.gender-boy {
+	background-image: url(../img/gender-boy.jpg);
+    display:inline-block;
+    width: 460px;
+    height: 670px;
+    margin-left: -460px;
+                transition: all 0.4s ease-in-out;
+           -moz-transition: all 0.4s ease-in-out;
+        -webkit-transition: all 0.4s ease-in-out;
+        	 -o-transition: all 0.4s ease-in-out;
+        	-ms-transition: all 0.4s ease-in-out;
+}
+
+.NL_HH_container input[type=radio]:hover + label.gender-boy {
+	background-image: url(../img/gender-boy-2.jpg);
+}
+
+.NL_HH_container input[type=radio]:checked + label.gender-boy {
+	background-image: url(../img/gender-boy-2.jpg);
+}
+
+/* ============================ HOLIDAY TYPE INPUTS ============================ */
+
+.NL_HH_container input[type=radio].holiday_type {
+    position: relative;
+    opacity: 0;
+    width: 345px;
+    height: 502.5px;
+}
+
+.NL_HH_container input[type=radio] + label.holiday_type-beach {
+	background-image: url(../img/holiday_type-beach.jpg);
+	background-position: 50% 60%;
+	background-repeat: no-repeat;
+    display:inline-block;
+    width: 345px;
+    height: 502.5px;
+    margin-left: -345px;
+                transition: all 0.4s ease-in-out;
+           -moz-transition: all 0.4s ease-in-out;
+        -webkit-transition: all 0.4s ease-in-out;
+        	 -o-transition: all 0.4s ease-in-out;
+        	-ms-transition: all 0.4s ease-in-out;
+}
+
+.NL_HH_container input[type=radio]:hover + label.holiday_type-beach {
+	background-image: url(../img/holiday_type-beach-2.jpg);
+}
+
+.NL_HH_container input[type=radio]:checked + label.holiday_type-beach {
+	background-image: url(../img/holiday_type-beach-2.jpg);
+}
+
+.NL_HH_container input[type=radio] + label.holiday_type-festival {
+	background-image: url(../img/holiday_type-festival.jpg);
+	background-position: 50% 60%;
+	background-repeat: no-repeat;
+    display:inline-block;
+    width: 345px;
+    height: 502.5px;
+    margin-left: -345px;
+                transition: all 0.4s ease-in-out;
+           -moz-transition: all 0.4s ease-in-out;
+        -webkit-transition: all 0.4s ease-in-out;
+        	 -o-transition: all 0.4s ease-in-out;
+        	-ms-transition: all 0.4s ease-in-out;
+}
+
+.NL_HH_container input[type=radio]:hover + label.holiday_type-festival {
+	background-image: url(../img/holiday_type-festival-2.jpg);
+}
+
+.NL_HH_container input[type=radio]:checked + label.holiday_type-festival {
+	background-image: url(../img/holiday_type-festival-2.jpg);
+}
+
+.NL_HH_container input[type=radio] + label.holiday_type-city {
+	background-image: url(../img/holiday_type-city.jpg);
+	background-position: 50% 60%;
+	background-repeat: no-repeat;
+    display:inline-block;
+    width: 345px;
+    height: 502.5px;
+    margin-left: -345px;
+                transition: all 0.4s ease-in-out;
+           -moz-transition: all 0.4s ease-in-out;
+        -webkit-transition: all 0.4s ease-in-out;
+        	 -o-transition: all 0.4s ease-in-out;
+        	-ms-transition: all 0.4s ease-in-out;
+}
+
+.NL_HH_container input[type=radio]:hover + label.holiday_type-city {
+	background-image: url(../img/holiday_type-city-2.jpg);
+}
+
+.NL_HH_container input[type=radio]:checked + label.holiday_type-city {
+	background-image: url(../img/holiday_type-city-2.jpg);
+}
+
+/* ============================ NUMBER OF DAYS INPUTS ============================ */
+
+.NL_HH_container input[type=radio].number_days {
+    position: relative;
+    opacity: 0;
+    width: 345px;
+    height: 502.5px;
+}
+
+.NL_HH_container input[type=radio] + label.number_days-3 {
+	background-image: url(../img/number_days-3.gif);
+	background-position: 50% 60%;
+	background-repeat: no-repeat;
+    display:inline-block;
+    width: 345px;
+    height: 502.5px;
+    margin-left: -345px;
+                transition: all 0.4s ease-in-out;
+           -moz-transition: all 0.4s ease-in-out;
+        -webkit-transition: all 0.4s ease-in-out;
+        	 -o-transition: all 0.4s ease-in-out;
+        	-ms-transition: all 0.4s ease-in-out;
+}
+
+.NL_HH_container input[type=radio]:hover + label.number_days-3 {
+	background-image: url(../img/number_days-3-2.gif);
+}
+
+.NL_HH_container input[type=radio]:checked + label.number_days-3 {
+	background-image: url(../img/number_days-3-2.gif);
+}
+
+.NL_HH_container input[type=radio] + label.number_days-7 {
+	background-image: url(../img/number_days-7.gif);
+	background-position: 50% 60%;
+	background-repeat: no-repeat;
+    display:inline-block;
+    width: 345px;
+    height: 502.5px;
+    margin-left: -345px;
+                transition: all 0.4s ease-in-out;
+           -moz-transition: all 0.4s ease-in-out;
+        -webkit-transition: all 0.4s ease-in-out;
+        	 -o-transition: all 0.4s ease-in-out;
+        	-ms-transition: all 0.4s ease-in-out;
+}
+
+.NL_HH_container input[type=radio]:hover + label.number_days-7 {
+	background-image: url(../img/number_days-7-2.gif);
+}
+
+.NL_HH_container input[type=radio]:checked + label.number_days-7 {
+	background-image: url(../img/number_days-7-2.gif);
+}
+
+.NL_HH_container input[type=radio] + label.number_days-14 {
+	background-image: url(../img/number_days-14.gif);
+	background-position: 50% 60%;
+	background-repeat: no-repeat;
+    display:inline-block;
+    width: 345px;
+    height: 502.5px;
+    margin-left: -345px;
+                transition: all 0.4s ease-in-out;
+           -moz-transition: all 0.4s ease-in-out;
+        -webkit-transition: all 0.4s ease-in-out;
+        	 -o-transition: all 0.4s ease-in-out;
+        	-ms-transition: all 0.4s ease-in-out;
+}
+
+.NL_HH_container input[type=radio]:hover + label.number_days-14 {
+	background-image: url(../img/number_days-14-2.gif);
+}
+
+.NL_HH_container input[type=radio]:checked + label.number_days-14 {
+	background-image: url(../img/number_days-14-2.gif);
+}
+
+/* ============================ CHECKLISTS ============================ */
+
+.NL_HH_container .load {
+	width: 100%;
+	max-width: 1440px;
+	position: absolute;
+	z-index: 2;
+	top: 0;
+	left: 0;
+}
+
+.NL_HH_container .checklist {
+	width: 100%;
+	display: table;
+	padding-bottom: 200px;
+	margin: 0 auto;
+	z-index: 3;
+	background-color: #FFF;
+	position: absolute;
+	top: 0;
+}
+
+.NL_HH_container .checklist .intro {
+	width: 100%;
+	text-align: center;
+	top: 0;
+	margin: 0;
+	padding-top: 140px;
+}
+
+.NL_HH_container .checklist p {
+	font-family: 'GibsonLight';
+	font-size: 100%;
+	letter-spacing: 1px;
+	line-height: 1.5;
+	width: 50%;
+}
+
+.NL_HH_container .checklist .bag-share {
+	width: 360px;
+	color: #000;
+	height: 75px;
+	line-height: 75px;
+	position: relative;
+	margin: 0 auto;
+}
+
+.NL_HH_container .checklist .bag-share ul {
+	width: 100%;
+	list-style: none;
+	float: right;
+}
+
+.NL_HH_container .checklist .bag-share ul li {
+	display: inline-block;
+	margin-right: 10px;
+	font-family: 'GibsonSemiBold';
+	text-align: center;
+}
+
+.NL_HH_container .checklist .bag-share ul li span{
+	margin-top: -20px;
+	display: block;
+}
+
+.NL_HH_container .checklist .bag-share ul li a {
+	width: 75px;
+	height: 75px;
+	display: block;
+	text-decoration: none;
+	color: #000;
+}
+
+.NL_HH_container .checklist .bag-share ul li .checklist_facebook {
+	background-image: url(../img/checklist_share_icon_facebook.png);
+		        transition: all 0.4s ease-in-out;
+           -moz-transition: all 0.4s ease-in-out;
+        -webkit-transition: all 0.4s ease-in-out;
+        	 -o-transition: all 0.4s ease-in-out;
+        	-ms-transition: all 0.4s ease-in-out;
+}
+
+.NL_HH_container .checklist .bag-share ul li .checklist_facebook:hover {
+	background-image: url(../img/checklist_share_icon_facebook-hover.png);
+}
+
+.NL_HH_container .checklist .bag-share ul li .checklist_twitter {
+	background-image: url(../img/checklist_share_icon_twitter.png);
+		        transition: all 0.4s ease-in-out;
+           -moz-transition: all 0.4s ease-in-out;
+        -webkit-transition: all 0.4s ease-in-out;
+        	 -o-transition: all 0.4s ease-in-out;
+        	-ms-transition: all 0.4s ease-in-out;
+}
+
+.NL_HH_container .checklist .bag-share ul li .checklist_twitter:hover {
+	background-image: url(../img/checklist_share_icon_twitter-hover.png);
+}
+
+.NL_HH_container .checklist .bag-share ul li .checklist_email {
+	background-image: url(../img/checklist_share_icon_email.png);
+		        transition: all 0.4s ease-in-out;
+           -moz-transition: all 0.4s ease-in-out;
+        -webkit-transition: all 0.4s ease-in-out;
+        	 -o-transition: all 0.4s ease-in-out;
+        	-ms-transition: all 0.4s ease-in-out;
+}
+
+.NL_HH_container .checklist .bag-share ul li .checklist_email:hover {
+	background-image: url(../img/checklist_share_icon_email-hover.png);
+}
+
+.NL_HH_container .checklist .bag-share ul li .checklist_print {
+	background-image: url(../img/checklist_share_icon_print.png);
+		        transition: all 0.4s ease-in-out;
+           -moz-transition: all 0.4s ease-in-out;
+        -webkit-transition: all 0.4s ease-in-out;
+        	 -o-transition: all 0.4s ease-in-out;
+        	-ms-transition: all 0.4s ease-in-out;
+}
+
+.NL_HH_container .checklist .bag-share ul li .checklist_print:hover {
+	background-image: url(../img/checklist_share_icon_print-hover.png);
+}
+
+.NL_HH_container .checklist form {
+	display: table;
+	width: 95%;
+	margin-bottom: 60px;
+}
+
+.NL_HH_container .checklist .bag-weight-box {
+	font-size: 100%;
+	color: #FFF;
+	text-transform: uppercase;
+	position: fixed;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	width: 15%;
+	height: 713px;
+	margin: 0;
+	top: 20px;
+	left: 20px;
+	z-index: 1;
+	background-image: url(../img/icon_bag.png);
+	background-position: center top;
+}
+
+.NL_HH_container .checklist .bag-weight {
+	padding-top:180px;
+	position: relative;
+
+}
+
+.NL_HH_container .checklist .bag-weight p {
+	text-align: center;
+	margin: 0 auto;
+	width: 100%;
+}
+
+.NL_HH_container .checklist .bag-weight .total-weight {
+	font-size: 300%;
+	text-transform: none;
+	font-family: 'EgizioItalic';
+}
+
+.NL_HH_container .checklist .bag-weight .small-print {
+	font-size: 70%;
+	text-transform: none;
+	width: 80%;
+	line-height: 1.3;
+	display: block;
+	margin: 0 auto;
+	font-family: 'GibsonLight';
+}
+
+.NL_HH_container .checklist .pop-up {
+	font-size: 100%;
+	color: #000;
+	text-transform: none;
+	position: absolute;
+	height: 713px;
+	font-size: 80%;
+	padding: 200px 30px 40px 30px;
+	margin: 0;
+	top: 0;
+	left: 0;
+	background-image: url(../img/icon_bag-click.png);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: center top;
+	z-index: 4;
+}
+
+.NL_HH_container .checklist .more-info {
+	color: #FFF;
+	display: inline-block;
+	font-family: 'GibsonLight';
+	margin-top: 10px;
+	font-size: 90%;
+	letter-spacing: .175em;
+}
+
+.NL_HH_container .checklist .pop-up a {
+	color: #000;
+	display: inline-block;
+	font-family: 'GibsonRegular';
+}
+
+.NL_HH_container .checklist .pop-up .close-popup {
+	text-decoration: none;
+	margin-top: 20px;
+}
+
+.NL_HH_container .checklist .bag-weight input {
+	padding: 8px 10px;
+	color: #FFF;
+	font-size: 60%;
+	            transition: all 0.1s ease-in-out;
+           -moz-transition: all 0.1s ease-in-out;
+        -webkit-transition: all 0.1s ease-in-out;
+        	 -o-transition: all 0.1s ease-in-out;
+        	-ms-transition: all 0.1s ease-in-out;
+}
+
+.NL_HH_container .checklist .bag-weight input:hover {
+	padding: 10px 12px;
+}
+
+.NL_HH_container .checklist .bag-weight .weight {
+	font-family: 'EgizioItalic';
+	font-size: 300%;
+	text-transform: none;
+}
+
+.NL_HH_container .checklist .bag-weight .kg {
+	font-family: 'EgizioItalic';
+	text-transform: none;
+	font-size: 150%;
+}
+
+.NL_HH_container .drop-down {
+	width: 80%;
+	height: 100%;
+	display: inline-block;
+	margin: 0;
+	float: right;
+	position: relative;
+	z-index: 3;
+}
+
+.NL_HH_container .checklist-trigger {
+	font-family: 'GibsonLight';
+	font-size: 120%;
+	display: block;
+	text-align: left;
+	clear: both;
+	text-decoration: none;
+	text-transform: uppercase;
+	cursor: pointer;
+	position: relative;
+	letter-spacing: 0.125em;
+	height: 50px;
+	border-bottom: 1px solid #000;
+	line-height: 50px;
+	color: #000;
+}
+
+.NL_HH_container .checklist-trigger span.arrow {
+  display: block;
+  position: absolute;
+  top: 20px;
+  right: 15px;
+  width: 12px;
+  height: 12px;
+  background: url(../img/menu-arrow_sprite.png) no-repeat;
+}
+
+.NL_HH_container .checklist-trigger.open span.arrow {
+  background-position: 0 -11px;
+}
+
+
+/* CHECKLIST BOXES ============================ */
+
+.NL_HH_container .checklist-items  {
+	list-style: none;
+	width: 100%;
+	height: auto;
+	float: left;
+	padding: 0 0 0 0;
+	position: relative;
+	text-align: left;
+	display: block;
+	float: left;
+  	clear: both;
+}
+
+.NL_HH_container .checklist-items li {
+	font-family: 'GibsonRegular';
+	text-transform: uppercase;
+	width: 16.9%;
+	display: inline-block;
+	border: 1px solid #E8E8E8;
+	text-align: center;
+	float: left;
+	margin-right: 1%;
+	margin-bottom: 1%;
+	height: auto;
+	max-height: 190px;
+	padding: 10px 10px 45px 10px;
+	font-size: 65%;
+	position: relative;
+}
+
+.NL_HH_container .checklist-items li input {
+	font-family: 'GibsonLight';
+	font-size: 100%;
+	padding-left: 8px;
+	color: #666;
+	width: 24px;
+}
+
+.NL_HH_container .checklist-items li:last-child {
+	margin-right: 0;
+}
+
+.NL_HH_container .checklist-items li img {
+	width: 100%;
+	display:block;
+}
+
+.NL_HH_container .checklist-items li p {
+	text-align: center;
+	text-transform: uppercase;
+	position: relative;
+	margin: 0;
+	padding-bottom: 10px;
+	display: inline-block;
+}
+
+.NL_HH_container .shop-hover {
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 70%;
+	cursor: pointer;
+	position: absolute;
+	opacity: 0;
+	            transition: all 0.4s ease-in-out;
+           -moz-transition: all 0.4s ease-in-out;
+        -webkit-transition: all 0.4s ease-in-out;
+        	 -o-transition: all 0.4s ease-in-out;
+        	-ms-transition: all 0.4s ease-in-out;
+}
+
+.NL_HH_container .shop-hover:hover {
+	opacity: 1;
+}
+
+.NL_HH_container .shop {
+	margin-top: 50px;
+	left: 50%;
+}
+
+.NL_HH_container .shop:hover {
+	background-color: #000;
+	color: #FFF;
+}
+
+/* MEDIA QUERIES */
+
+@media print {
+
+	header,
+	a,
+	.NL_HH_container .questions,
+	.NL_HH_container .result h2,
+	.NL_HH_container .result ul,
+	.NL_HH_container .checklist .intro p,
+	.NL_HH_container .checklist form .bag-weight .re-calculate,
+	.NL_HH_container .bag-share,
+	.NL_HH_container .checklist-items li img,
+	.NL_HH_container .checklist-trigger span.arrow,
+	.NL_HH_container .start-again {
+		display: none;
+	}
+
+	.NL_HH_container .checklist .intro {
+		width: 100%;
+		padding: 40px 0 0 0;
+		margin: 0;
+	}
+
+	.NL_HH_container .checklist {
+		margin-bottom: 0;
+	}
+
+	.NL_HH_container .checklist .bag-weight-box {
+		background-image: none;
+		position: relative;
+		padding: 0;
+		margin: 0 auto;
+		top: -60px;
+		left: 0;
+		width: 99%;
+	}
+
+	.NL_HH_container .checklist .bag-weight {
+		color: #000;
+		display: block;
+	}
+
+	.NL_HH_container .checklist .bag-weight p {
+		text-align: center;
+		width: 100%;
+	}
+
+	.NL_HH_container .drop-down {
+		width: 100%;
+		margin-top: -530px;
+	}
+
+	.NL_HH_container .drop-down > ul.checklist-items.checklist-clothing {
+		display: block;
+	}
+
+	.NL_HH_container .drop-down > ul.checklist-items.checklist-toiletries {
+		display: block;
+	}
+
+	.NL_HH_container .drop-down > ul.checklist-items.checklist-other_items {
+		display: block;
+	}
+
+	.NL_HH_container .drop-down > ul.checklist-items.checklist-money {
+		display: block;
+	}
+
+	.NL_HH_container .checklist-items {
+		margin-bottom: 24px;
+		display: block;
+	}
+
+	.NL_HH_container .checklist-items.open {
+		display: block;
+	}
+
+	.NL_HH_container .checklist-items li {
+		width: 33%;
+		margin: 0;
+		border: none;
+		display: inline-block;
+		float: left;
+		border: none;
+		text-align: left;
+		padding: 0;
+		height: 14px;
+	}
+
+	.NL_HH_container .checklist-items li:last-child {
+		margin-right: 0;
+	}
+
+	.NL_HH_container .checklist-items li input {
+		border: 0;
+		width: 20px;
+	}
+
+	.NL_HH_container .checklist-items li span {
+		display: none;
+	}
+}
+
+@media screen and (max-width : 1598px){
+
+	.NL_HH_container .checklist .bag-weight-box {
+		left: 30px;
+	}
+
+	.NL_HH_container .checklist .bag-weight input {
+		margin: 10px auto;
+	}
+
+
+	.NL_HH_container .start-again {
+		margin-right: 30px;
+	}
+
+	.NL_HH_container .checklist .pop-up {
+		padding: 80px 30px 40px 30px;
+		font-size: 80%;
+	}
+
+	.NL_HH_container .drop-down {
+		width: 82%;
+	}
+}
+
+@media screen and (max-width : 1440px){
+
+
+	.NL_HH_container .checklist .pop-up {
+		padding: 80px 30px 40px 30px;
+	}
+
+	.NL_HH_container .checklist-items li {
+		padding: 10px 10px 70px 10px;
+	}
+
+
+}
+
+@media screen and (max-width : 1336px){
+
+	.NL_HH_container .checklist .bag-weight {
+		padding-top:60px;
+	}
+
+	.NL_HH_container .checklist .bag-weight input {
+		margin: 0 auto 10px auto;
+	}
+
+	.NL_HH_container .checklist .pop-up {
+		font-size: 70%;
+		padding: 70px 20px 40px 20px;
+	}
+
+	.NL_HH_container .checklist-items li {
+		width: 21.5%;
+	}
+
+	.NL_HH_container input[type=radio].gender,
+	.NL_HH_container input[type=radio].holiday_type,
+	.NL_HH_container input[type=radio].number_days {
+	    width: 299px;
+	    height: 435px;
+	}
+
+	.NL_HH_container input[type=radio] + label.gender-girl,
+	.NL_HH_container input[type=radio] + label.gender-boy,
+	.NL_HH_container input[type=radio] + label.holiday_type-beach,
+	.NL_HH_container input[type=radio] + label.holiday_type-festival,
+	.NL_HH_container input[type=radio] + label.holiday_type-city,
+	.NL_HH_container input[type=radio] + label.number_days-3,
+	.NL_HH_container input[type=radio] + label.number_days-7,
+	.NL_HH_container input[type=radio] + label.number_days-14 {
+	    width: 299px;
+	    height: 435px;
+	    margin-left: -299px;
+	    background-position: 50% 50%;
+	    background-size: 100%;
+	}
+
+}
+
+@media screen and (max-width : 1236px){
+
+	.NL_HH_container .checklist .bag-weight-box {
+		width: 17%;
+		left: 10px;
+	}
+
+	.NL_HH_container .checklist .bag-weight {
+		/*padding-top: 50px;*/
+		font-size: 90%;
+	}
+
+	.NL_HH_container .drop-down {
+		width: 82%;
+	}
+
+	.NL_HH_container .checklist-items li {
+		width: 21%;
+	}
+
+	.NL_HH_container .checklist .pop-up {
+		font-size: 75%;
+	}
+}
+
+
+@media screen and (max-width : 1024px){
+
+	.NL_HH_container .checklist .bag-weight {
+		font-size: 100%;
+
+	}
+
+	.NL_HH_container .checklist .bag-weight-box {
+		width: 20%;
+
+	}
+
+	.NL_HH_container .drop-down {
+		width: 72.5%;
+	}
+
+	.NL_HH_container .checklist-items li {
+		width: 28.5%;
+		max-height: 210px;
+	}
+}
+
+
+@media screen and (max-width : 960px){
+
+	.NL_HH_container .checklist .bag-weight-box {
+		left: 10px;
+	}
+
+	.NL_HH_container .checklist .bag-weight {
+		font-size: 80%;
+	}
+
+	.NL_HH_container .checklist .pop-up {
+		font-size: 75%;
+		padding: 60px 20px 40px 20px;
+	}
+
+	.NL_HH_container .drop-down {
+		width: 76%;
+	}
+
+	.NL_HH_container .checklist-items li {
+		width: 27%;
+		max-height: 210px;
+	}
+
+}
+
+@media screen and (max-width : 768px) {
+	.NL_HH_container input[type=radio].gender,
+	.NL_HH_container input[type=radio].holiday_type,
+	.NL_HH_container input[type=radio].number_days {
+	    width: 220px;
+	    height: 320px;
+	}
+
+	.NL_HH_container input[type=radio] + label.gender-girl,
+	.NL_HH_container input[type=radio] + label.gender-boy,
+	.NL_HH_container input[type=radio] + label.holiday_type-beach,
+	.NL_HH_container input[type=radio] + label.holiday_type-festival,
+	.NL_HH_container input[type=radio] + label.holiday_type-city,
+	.NL_HH_container input[type=radio] + label.number_days-3,
+	.NL_HH_container input[type=radio] + label.number_days-7,
+	.NL_HH_container input[type=radio] + label.number_days-14 {
+	    width: 220px;
+	    height: 320px;
+	    margin-left: -220px;
+	    background-position: 50% 50%;
+	    background-size: 100%;
+	}
+
+	.NL_HH_container .checklist .bag-weight-box {
+		width: 24%;
+		font-size: 110%;
+	}
+
+	.NL_HH_container .checklist .bag-weight {
+	}
+
+	.NL_HH_container .checklist .pop-up {
+		font-size: 85%;
+		padding: 70px 20px 0 20px;
+	}
+
+	.NL_HH_container .checklist .intro {
+		padding-left: 100px;
+		text-align: left;
+	}
+
+	.NL_HH_container .checklist .intro h2 {
+		margin-left: -100px;
+	}
+
+	.NL_HH_container .drop-down {
+		width: 62.5%;
+	}
+
+	.NL_HH_container .checklist-items li {
+		width: 42.5%;
+		margin: 0 10px 10px 0;
+	}
+
+
+}
+
+@media screen and (max-width : 736px) {
+
+
+	.NL_HH_container input[type=radio].gender,
+	.NL_HH_container input[type=radio].holiday_type,
+	.NL_HH_container input[type=radio].number_days {
+	    width: 207px;
+	    height: 301px;
+	}
+
+	.NL_HH_container input[type=radio] + label.gender-girl,
+	.NL_HH_container input[type=radio] + label.gender-boy,
+	.NL_HH_container input[type=radio] + label.holiday_type-beach,
+	.NL_HH_container input[type=radio] + label.holiday_type-festival,
+	.NL_HH_container input[type=radio] + label.holiday_type-city,
+	.NL_HH_container input[type=radio] + label.number_days-3,
+	.NL_HH_container input[type=radio] + label.number_days-7,
+	.NL_HH_container input[type=radio] + label.number_days-14 {
+	    width: 207px;
+	    height: 301px;
+	    margin-left: -207px;
+	    background-position: 50% 50%;
+	    background-size: 100%;
+	}
+
+	.NL_HH_container .checklist .bag-weight {
+		/*padding-top: 60px;*/
+	}
+
+	.NL_HH_container .checklist .pop-up {
+		font-size: 90%;
+		padding: 80px 20px 40 20px;
+	}
+
+	.NL_HH_container .drop-down {
+		width: 67%;
+	}
+
+	.NL_HH_container .checklist .bag-weight-box {
+		left: 10px;
+		font-size: 90%;
+
+	}
+
+	.NL_HH_container .checklist .intro {
+		padding-left: 60px;
+	}
+
+	.NL_HH_container .checklist .intro h2 {
+		margin-left: -40px;
+	}
+
+}
+
+@media screen and (max-width : 667px) {
+	.NL_HH_container .checklist .intro {
+		padding-left: 80px;
+	}
+
+	.NL_HH_container .checklist .intro h2 {
+		margin-left: -30px;
+	}
+
+	.NL_HH_container .checklist-items li {
+		width: 40.5%;
+	}
+
+	.NL_HH_container .checklist .pop-up {
+		font-size: 70%;
+		padding: 60px 20px 40px 20px;
+	}
+
+	.NL_HH_container .checklist .bag-weight-box {
+		width: 28%;
+		font-size: 100%;
+	}
+
+	.NL_HH_container .checklist .bag-weight {
+		padding-top: 60px;
+	}
+}
+
+@media screen and (max-width : 568px) {
+	.NL_HH_container header {
+		width: 85%;
+	}
+
+	.NL_HH_container .intro p {
+		width: 100%;
+	}
+
+	.NL_HH_container .checklist .intro {
+		width: 90%;
+		margin: 0 auto;
+		text-align: center;
+		padding: 120px 0 0 0;
+	}
+
+	.NL_HH_container .checklist .intro h2 {
+		margin: 0 auto;
+		padding: 0;
+		font-size: 170%;
+		text-align: center;
+	}
+
+	.NL_HH_container .checklist .load {
+		margin: 0;
+		z-index: 1;
+		width: 90%;
+		margin: 0 auto;
+	}
+
+	.NL_HH_container .checklist form {
+	  	margin-top: 0;
+	}
+
+	.NL_HH_container .checklist .bag-weight-box {
+		position: relative;
+		width: 50%;
+		z-index: 4;
+		margin: 0 auto;
+		left: 0;
+		padding: 0;
+		font-size: 140%;
+	}
+
+	.NL_HH_container .checklist .bag-weight {
+		padding-top: 110px;
+	}
+
+	.NL_HH_container .drop-down {
+		width: 96%;
+		height: 100%;
+		display: block;
+		margin: 30px 0 0 30px;
+		float: none;
+		position: relative;
+		z-index: 3;
+	}
+
+	.NL_HH_container .checklist-trigger {
+		font-size: 100%;
+		height: 40px;
+	}
+
+	.NL_HH_container .checklist-items li {
+		width: 46%;
+		margin-bottom: 10px;
+		margin-right: 10px;
+		padding: 0 0 45px 0;
+		max-height: 250px;
+		font-size: 80%;
+	}
+
+	.NL_HH_container .checklist .pop-up {
+		padding: 100px 20px 0 20px;
+		font-size: 80%;
+	}
+}
+
+@media screen and (max-width : 480px) {
+
+	.NL_HH_container .checklist .bag-weight {
+		padding-top: 80px;
+	}
+
+	.NL_HH_container .checklist-items li {
+		width: 47%;
+	}
+
+	.NL_HH_container .checklist .pop-up {
+		font-size: 70%;
+		padding-top: 70px;
+	}
+}
+
+@media screen and (max-width : 414px) {
+
+	.NL_HH_container .load {
+		width: 414px;
+	}
+
+	.NL_HH_container .checklist .intro {
+		margin: 0 auto;
+		text-align: center;
+		padding: 120px 0 0 0;
+	}
+
+	.NL_HH_container .checklist-items li {
+		width: 46.5%;
+		margin-right: 10px;
+		height: 165px;
+		font-size: 40%;
+	}
+
+	.NL_HH_container .start-again {
+		font-size: 60%;
+		padding: 10px;
+		width: 100px;
+	}
+
+	.NL_HH_container .checklist .bag-weight-box {
+		width: 70%;
+		font-size: 140%;
+	}
+
+	.NL_HH_container .checklist .bag-weight {
+		padding-top: 90px;
+	}
+
+	.NL_HH_container .checklist .pop-up {
+		padding: 110px 30px 40px 30px;
+		font-size: 85%;
+	}
+
+}
+
+@media screen and (max-width : 375px) {
+
+	.NL_HH_container .load {
+		width: 375px;
+	}
+
+	.NL_HH_container .checklist-items li {
+		width: 45.5%;
+		height: 125px;
+	}
+
+	.NL_HH_container .checklist .pop-up {
+		padding: 100px 20px 40px 20px;
+		font-size: 70%;
+	}
+
+}
+
+@media screen and (max-width : 320px) {
+	.NL_HH_container .load {
+		width: 320px;
+	}
+
+	.NL_HH_container .drop-down {
+		margin: 30px 0 0 25px;
+	}
+
+}
