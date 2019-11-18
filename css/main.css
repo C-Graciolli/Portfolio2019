@@ -747,6 +747,9 @@ ol {
     grid-column: 1 / 9;
     height: 20rem; } }
 @media screen and (width: 1366px) and (height: 1024px) {
+  .project__grid {
+    padding: 3rem 4rem; }
+
   .project__grid--intro .grid-item--2 {
     display: flex;
     height: 30rem; }
@@ -761,7 +764,10 @@ ol {
   .grid-item--project-screen--mobile,
   .grid-item--style-components--large,
   .grid-item--project-screen--large {
-    height: 57.5rem; } }
+    height: 57.5rem; }
+
+  .project__grid--intro .project__details {
+    width: 100%; } }
 @media screen and (min-width: 1440px) and (min-height: 900px) {
   .project__grid--intro .grid-item--2 {
     display: flex;

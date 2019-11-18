@@ -604,6 +604,13 @@ $section-transition-timing-function: cubic-bezier(.4,.2,0,1);
 
 @media screen and (width: 1366px) and (height:1024px){
 
+
+ .project__grid {
+   padding: 3rem 4rem;
+ }
+
+
+
   .project__grid--intro {
     .grid-item--2 {
       display: flex;
@@ -623,6 +630,12 @@ $section-transition-timing-function: cubic-bezier(.4,.2,0,1);
    .grid-item--style-components--large,
    .grid-item--project-screen--large {
      height: 57.5rem;
+   }
+
+   .project__grid--intro {
+     .project__details {
+       width: 100%;
+     }
    }
 }
 
