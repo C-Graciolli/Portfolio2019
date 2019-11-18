@@ -231,22 +231,22 @@
   }
 }
 
-// @media screen and (width: 1366px) and (height: 1024px) {
-//  .homepage-hero {
-//    background: url("../imgs/bg-sky.jpg") no-repeat center center;
-//    background-size: 115%;
-//  }
-//
-//  .homepage-hero__intro {
-//    h1 {
-//      margin: 12rem auto 2rem;
-//    }
-//  }
-//
-//  .homepage-hero__jetpack-holder {
-//    bottom: 16%;
-//    right: 16rem;
-//    width: 24rem;
-//
-//  }
-// }
+@media screen and (width: 1366px) and (height: 1024px) {
+ .homepage-hero {
+   background: url("../imgs/bg-sky.jpg") no-repeat center center;
+   background-size: 115%;
+ }
+
+ .homepage-hero__intro {
+   h1 {
+     margin: 12rem auto 2rem;
+   }
+ }
+
+ .homepage-hero__jetpack-holder {
+   bottom: 16%;
+   right: 16rem;
+   width: 24rem;
+
+ }
+}
