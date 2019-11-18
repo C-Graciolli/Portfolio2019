@@ -654,7 +654,7 @@ $section-transition-timing-function: cubic-bezier(.4,.2,0,1);
 
 @media screen and (min-width: 1500px) {
  .project__grid--intro .grid-item--2 {
-     height: 40rem;
+     height: 36rem;
  }
  .#{$section-class} {
    &.#{$section-expanded-class} {
