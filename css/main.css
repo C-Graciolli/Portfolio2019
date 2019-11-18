@@ -298,18 +298,6 @@ ol {
   .homepage-hero__intro {
     margin: 7.5% auto 0;
     height: 87.5%; } }
-@media screen and (width: 1366px) and (height: 1024px) {
-  .homepage-hero {
-    background: url("../imgs/bg-sky.jpg") no-repeat center center;
-    background-size: 115%; }
-
-  .homepage-hero__intro h1 {
-    margin: 12rem auto 2rem; }
-
-  .homepage-hero__jetpack-holder {
-    bottom: 16%;
-    right: 16rem;
-    width: 24rem; } }
 .logo-holder {
   width: 32rem;
   height: 6rem;
