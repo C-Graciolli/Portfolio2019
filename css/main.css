@@ -774,7 +774,7 @@ ol {
     height: 57.5rem; } }
 @media screen and (min-width: 1500px) {
   .project__grid--intro .grid-item--2 {
-    height: 40rem; }
+    height: 36rem; }
 
   .section.is-expanded .project__grid--intro .grid-item--2 {
     height: 57.5rem; } }
@@ -2110,5 +2110,3 @@ ol {
   to {
     opacity: 0;
     transform: scale3d(1.5, 1.5, 1); } }
-
-/*# sourceMappingURL=main.css.map */
